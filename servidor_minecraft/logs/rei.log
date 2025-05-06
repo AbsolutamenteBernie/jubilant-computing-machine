@@ -693,3 +693,5 @@ java.lang.Throwable
 [16:00:28] [Server thread/DEBUG] [REI] Player Observer has outdated displays version 0 [latest version: 4DB8B78A00000001], sending reset packet request.
 [16:10:43] [Server thread/DEBUG] [REI] Player Observer has outdated displays version 0 [latest version: 4DB8B78A00000001]
 [16:10:43] [Server thread/DEBUG] [REI] Player Observer has outdated displays version 0 [latest version: 4DB8B78A00000001], sending reset packet request.
+[18:31:09] [Server thread/DEBUG] [REI] Player Observer has outdated displays version 0 [latest version: 4DB8B78A00000001]
+[18:31:09] [Server thread/DEBUG] [REI] Player Observer has outdated displays version 0 [latest version: 4DB8B78A00000001], sending reset packet request.

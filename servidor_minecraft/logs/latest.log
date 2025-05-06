@@ -440,3 +440,12 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.class_8710$class_91
 [18:23:09] [Server thread/INFO]: Unknown or incomplete command, see below for error
 [18:23:09] [Server thread/INFO]: <--[HERE]
 [18:25:33] [Server thread/INFO]: [Observer: Set the weather to clear]
+[18:30:29] [Server thread/INFO]: Observer lost connection: Disconnected
+[18:30:29] [Server thread/INFO]: Observer left the game
+[18:31:09] [Server thread/INFO]: Observer[/127.101.60.46:56043] logged in with entity id 2504 at (-688.8885109288334, 82.46121806311615, 158.5025813294967)
+[18:31:09] [Server thread/INFO]: Observer joined the game
+[18:31:10] [Server thread/INFO]: [do_a_barrel_roll] Client of Observer accepted server config.
+[18:31:22] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[18:31:22] [Server thread/INFO]: <--[HERE]
+[18:31:46] [Server thread/INFO]: [Observer: Set own game mode to Creative Mode]
+[18:32:43] [Server thread/INFO]: [Observer: Set own game mode to Spectator Mode]
