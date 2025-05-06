@@ -437,3 +437,6 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.class_8710$class_91
 [18:02:45] [Server thread/INFO]: <--[HERE]
 [18:14:30] [Server thread/INFO]: Unknown or incomplete command, see below for error
 [18:14:30] [Server thread/INFO]: <--[HERE]
+[18:23:09] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[18:23:09] [Server thread/INFO]: <--[HERE]
+[18:25:33] [Server thread/INFO]: [Observer: Set the weather to clear]
