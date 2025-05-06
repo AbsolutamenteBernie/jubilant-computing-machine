@@ -419,3 +419,8 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.class_8710$class_91
 [16:38:41] [Server thread/INFO]: <--[HERE]
 [16:43:18] [Server thread/INFO]: Observer teleported to -695.5 72.0 160.5 minecraft:overworld
 [16:43:26] [Server thread/INFO]: [Observer: Set the weather to rain & thunder]
+[16:55:15] [Server thread/INFO]: [Observer: Set the weather to rain & thunder]
+[16:55:24] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[16:55:24] [Server thread/INFO]: <--[HERE]
+[16:55:24] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[16:55:24] [Server thread/INFO]: <--[HERE]
