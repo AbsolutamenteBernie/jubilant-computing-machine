@@ -415,3 +415,5 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.class_8710$class_91
 [16:16:03] [Server thread/INFO]: [Observer: Set own game mode to Spectator Mode]
 [16:22:25] [Server thread/INFO]: Unknown or incomplete command, see below for error
 [16:22:25] [Server thread/INFO]: <--[HERE]
+[16:38:41] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[16:38:41] [Server thread/INFO]: <--[HERE]
