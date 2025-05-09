@@ -361,3 +361,30 @@
 [02:26:26] [Server thread/INFO]: [SrLipord: Set the time to 0]
 [02:30:25] [Server thread/INFO]: SrLipord teleported to -2694.0 137.0 -12360.0 minecraft:overworld
 [02:30:39] [Server thread/INFO]: SrLipord teleported to -2803.0 63.0 -11718.0 minecraft:overworld
+[02:32:33] [Server thread/INFO]: SrLipord teleported to -3072.0 63.0 -11886.0 minecraft:overworld
+[02:32:59] [Server thread/INFO]: SrLipord teleported to 1368.0 63.0 -13991.0 minecraft:overworld
+[02:34:15] [Server thread/INFO]: SrLipord teleported to -2524.0 197.0 -12654.0 minecraft:overworld
+[02:35:08] [Server thread/INFO]: [SrLipord: Set own game mode to Creative Mode]
+[02:35:10] [Server thread/INFO]: [SrLipord: Set own game mode to Survival Mode]
+[02:35:11] [Server thread/INFO]: [SrLipord: Set own game mode to Spectator Mode]
+[02:35:20] [Server thread/INFO]: Villager class_1646['Unemployed'/14108, l='ServerLevel[world]', x=-2489.36, y=181.00, z=-12685.06] died, message: 'Unemployed froze to death'
+[02:35:37] [Server thread/INFO]: [SrLipord: Set own game mode to Survival Mode]
+[02:36:33] [Server thread/INFO]: Villager class_1646['Unemployed'/14077, l='ServerLevel[world]', x=-2500.50, y=197.04, z=-12667.30] died, message: 'Unemployed froze to death'
+[02:37:59] [Server thread/INFO]: [SrLipord: Set own game mode to Spectator Mode]
+[02:38:19] [Server thread/WARN]: SrLipord moved too quickly! -8.002436877762648,-4.163234829470497,-5.428953900865963
+[02:40:54] [Server thread/INFO]: [SrLipord: Set own game mode to Survival Mode]
+[02:41:05] [Server thread/INFO]: SrLipord lost connection: Disconnected
+[02:41:05] [Server thread/INFO]: SrLipord left the game
+[02:41:10] [Server thread/INFO]: Stopping the server
+[02:41:10] [Server thread/INFO]: Stopping server
+[02:41:10] [Server thread/INFO]: Saving players
+[02:41:10] [Server thread/INFO]: Saving worlds
+[02:41:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[02:41:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[02:41:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[02:41:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:41:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:41:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:41:10] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[02:41:10] [Server thread/INFO]: Dispatching unloading event for config easyanvils-server.toml
+[02:41:10] [Server thread/INFO]: Dispatching unloading event for config easymagic-server.toml
