@@ -347,3 +347,5 @@
 [01:30:48] [Server thread/INFO]: [do_a_barrel_roll] Client of SrLipord accepted server config.
 [01:36:33] [Server thread/INFO]: [SrLipord: Created new objective [Salud]]
 [01:36:57] [Server thread/INFO]: [SrLipord: Set display slot list to show objective Salud]
+[01:44:47] [Server thread/INFO]: [SrLipord: Set own game mode to Creative Mode]
+[01:45:37] [Server thread/INFO]: [SrLipord: Set own game mode to Survival Mode]
