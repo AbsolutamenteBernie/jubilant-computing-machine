@@ -20568,3 +20568,23 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.class_8710$class_91
 [07:22:04] [Server thread/INFO]: Gathorin was slain by SrLipord using [WWWwwwwwwwPicadura de la cobra GayWWwwwwwwww]
 [07:22:08] [Server thread/INFO]: [do_a_barrel_roll] Client of Gathorin accepted server config.
 [07:22:21] [Server thread/INFO]: Gathorin teleported to 1445.5 158.0 -4592.5 minecraft:overworld
+[07:24:27] [Server thread/INFO]: [Vector: Teleported Vector to SrLipord]
+[07:25:55] [Server thread/INFO]: Vector lost connection: Disconnected
+[07:25:55] [Server thread/INFO]: Vector left the game
+[07:26:31] [Server thread/INFO]: Gathorin lost connection: Disconnected
+[07:26:31] [Server thread/INFO]: Gathorin left the game
+[07:26:34] [Server thread/INFO]: SrLipord lost connection: Disconnected
+[07:26:34] [Server thread/INFO]: SrLipord left the game
+[07:26:47] [Server thread/INFO]: Stopping the server
+[07:26:47] [Server thread/INFO]: Stopping server
+[07:26:47] [Server thread/INFO]: Saving players
+[07:26:47] [Server thread/INFO]: Saving worlds
+[07:26:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[07:26:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[07:26:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[07:26:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[07:26:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07:26:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07:26:47] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[07:26:48] [Server thread/INFO]: Dispatching unloading event for config easyanvils-server.toml
+[07:26:48] [Server thread/INFO]: Dispatching unloading event for config easymagic-server.toml
