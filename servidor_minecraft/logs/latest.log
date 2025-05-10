@@ -19950,3 +19950,78 @@ Caused by: java.lang.IllegalStateException: Retrieved chunk position [-72, 14] d
 [04:37:51] [Server thread/INFO]: [Observer: Teleported Observer to 1248.500000, -46.800000, -4735.500000]
 [04:37:55] [Server thread/INFO]: [Observer: Set own game mode to Spectator Mode]
 [04:38:25] [Server thread/INFO]: [Observer: Set own game mode to Creative Mode]
+[04:38:57] [Server thread/INFO]: Gathorin[/127.59.45.239:50149] logged in with entity id 28755 at (56034.21329326562, 80.0, 1061697.231984215)
+[04:38:57] [Server thread/INFO]: Gathorin joined the game
+[04:38:58] [Server thread/INFO]: [do_a_barrel_roll] Client of Gathorin accepted server config.
+[04:39:08] [Server thread/INFO]: [Observer: Set own game mode to Spectator Mode]
+[04:39:18] [Server thread/INFO]: [Observer: Set own game mode to Creative Mode]
+[04:39:43] [Server thread/INFO]: [Observer: Set own game mode to Spectator Mode]
+[04:39:54] [Server thread/INFO]: Observer teleported to 1443.5 -49.0 -4592.5 minecraft:overworld
+[04:40:09] [Server thread/INFO]: Gathorin teleported to 57834.5 65.0 1058664.5 minecraft:overworld
+[04:40:15] [Server thread/INFO]: [Observer: Set own game mode to Creative Mode]
+[04:41:56] [Server thread/INFO]: [Observer: Set own game mode to Spectator Mode]
+[04:42:16] [Server thread/INFO]: Observer teleported to -11270.5 -56.0 -2855.5 minecraft:overworld
+[04:43:09] [Server thread/INFO]: [Observer: Played sound minecraft:entity.lightning_bolt.thunder to 4 players]
+[04:43:13] [Server thread/INFO]: [Observer: Played sound minecraft:entity.lightning_bolt.thunder to 4 players]
+[04:43:43] [Server thread/INFO]: [Observer: Gave 1 [Command Block] to Observer]
+[04:43:47] [Server thread/INFO]: [Observer: Set own game mode to Creative Mode]
+[04:43:53] [Server thread/INFO]: [Observer: Set own game mode to Spectator Mode]
+[04:44:01] [Server thread/INFO]: [Observer: Set own game mode to Creative Mode]
+[04:44:32] [Server thread/INFO]: Gathorin teleported to 58328.0 161.0 1057892.0 minecraft:overworld
+[04:45:04] [Server thread/INFO]: Observer has made the advancement [Sneak 100]
+[04:45:56] [Server thread/INFO]: [Observer: Set own game mode to Spectator Mode]
+[04:46:02] [Server thread/INFO]: [Observer: Played sound minecraft:entity.lightning_bolt.thunder to 4 players]
+[04:46:04] [Server thread/INFO]: [Observer: Played sound minecraft:entity.lightning_bolt.thunder to 4 players]
+[04:46:04] [Server thread/INFO]: [Observer: Played sound minecraft:entity.lightning_bolt.thunder to 4 players]
+[04:46:05] [Server thread/INFO]: [Observer: Played sound minecraft:entity.lightning_bolt.thunder to 4 players]
+[04:46:05] [Server thread/INFO]: [Observer: Played sound minecraft:entity.lightning_bolt.thunder to 4 players]
+[04:46:09] [Server thread/INFO]: [Observer: Played sound minecraft:entity.lightning_bolt.thunder to 4 players]
+[04:46:32] [Server thread/INFO]: [Observer: Set own game mode to Creative Mode]
+[04:46:40] [Server thread/INFO]: [Observer: Set own game mode to Spectator Mode]
+[04:47:34] [Server thread/INFO]: [Not Secure] <SrLipord> a
+[04:47:38] [Server thread/INFO]: [SrLipord: Teleported SrLipord to Vector]
+[04:48:26] [Server thread/INFO]: Gathorin teleported to 56480.0 97.0 1055555.0 minecraft:overworld
+[04:49:17] [Server thread/INFO]: Vector teleported to -11990.5 78.0 -1874.5 minecraft:overworld
+[04:50:47] [Server thread/INFO]: Vector teleported to -10746.5 138.0 -2538.5 minecraft:overworld
+[04:51:17] [Server thread/INFO]: Vector teleported to -12270.5 -5.0 -1809.5 minecraft:overworld
+[04:51:25] [Server thread/INFO]: Vector teleported to -10559.5 154.0 -2127.5 minecraft:overworld
+[04:51:44] [Server thread/INFO]: Villager class_1646['Weaponsmith'/39821, l='ServerLevel[world]', x=-10556.16, y=151.00, z=-2123.86] died, message: 'Weaponsmith was slain by Vector'
+[04:52:16] [Server thread/INFO]: Gathorin teleported to 63517.0 143.0 1071954.0 minecraft:overworld
+[04:52:55] [Server thread/INFO]: Gathorin teleported to 63444.0 137.0 1071895.0 minecraft:overworld
+[04:53:42] [Server thread/INFO]: Gathorin was slain by Vindicator
+[04:53:44] [Server thread/INFO]: [do_a_barrel_roll] Client of Gathorin accepted server config.
+[04:54:06] [Server thread/INFO]: Vector has made the advancement [Ol' Betsy]
+[04:54:15] [Server thread/INFO]: Gathorin teleported to 63436.5 128.0 1071888.5 minecraft:overworld
+[04:55:33] [Server thread/INFO]: Vector teleported to -10746.5 138.0 -2538.5 minecraft:overworld
+[04:56:17] [Server thread/INFO]: Gathorin teleported to 63596.0 121.0 1071991.0 minecraft:overworld
+[04:58:11] [Server thread/INFO]: Vector lost connection: You logged in from another location
+[04:58:11] [Server thread/INFO]: Vector left the game
+[04:58:11] [Server thread/WARN]: handleDisconnection() called twice
+[04:58:14] [Server thread/WARN]: UUID of added entity already exists: class_1452['Pig'/44484, l='ServerLevel[world]', x=63312.90, y=63.00, z=1072544.90]
+[04:58:14] [Server thread/INFO]: Vector[/127.225.218.44:48863] logged in with entity id 44486 at (-10825.160987148754, 141.53584062504456, -2513.678182607004)
+[04:58:14] [Server thread/INFO]: Vector joined the game
+[04:58:14] [Server thread/INFO]: SrLipord teleported to -2334.0 149.0 -14394.0 minecraft:overworld
+[04:58:15] [Server thread/INFO]: [do_a_barrel_roll] Client of Vector accepted server config.
+[04:59:19] [Server thread/INFO]: [SrLipord: Teleported SrLipord to Vector]
+[05:00:27] [Server thread/INFO]: Gathorin teleported to 63569.0 63.0 1072893.0 minecraft:overworld
+[05:00:46] [Server thread/INFO]: Gathorin teleported to 63433.0 78.0 1072701.0 minecraft:overworld
+[05:02:33] [Server thread/INFO]: Villager class_1646['Unemployed'/49766, l='ServerLevel[world]', x=62953.72, y=83.00, z=1073062.63] died, message: 'Unemployed suffocated in a wall'
+[05:02:43] [Server thread/INFO]: Villager class_1646['Unemployed'/49934, l='ServerLevel[world]', x=62948.72, y=84.00, z=1073108.63] died, message: 'Unemployed suffocated in a wall'
+[05:03:24] [Server thread/INFO]: [Observer: Teleported Gathorin to Observer]
+[05:03:27] [Server thread/INFO]: Observer lost connection: Disconnected
+[05:03:27] [Server thread/INFO]: Observer left the game
+[05:03:37] [Server thread/INFO]: [SrLipord: Played sound minecraft:entity.lightning_bolt.thunder to 3 players]
+[05:04:40] [Server thread/INFO]: SrLipord teleported to -12270.5 -5.0 -1809.5 minecraft:overworld
+[05:05:36] [Server thread/INFO]: [SrLipord: Teleported SrLipord to Vector]
+[05:06:01] [Server thread/INFO]: Gathorin teleported to 62835.0 85.0 1073198.0 minecraft:overworld
+[05:08:42] [Server thread/INFO]: Villager class_1646['Unemployed'/54699, l='ServerLevel[world]', x=62348.72, y=85.00, z=1073876.63] died, message: 'Unemployed suffocated in a wall'
+[05:08:45] [Server thread/WARN]: Gathorin moved too quickly! -1.839331298986508,-0.41999998688697815,9.985523147275671
+[05:08:48] [Server thread/INFO]: Villager class_1646['Unemployed'/54874, l='ServerLevel[world]', x=62327.37, y=90.00, z=1073924.72] died, message: 'Unemployed suffocated in a wall'
+[05:09:02] [Server thread/INFO]: [SrLipord: Set the weather to rain & thunder]
+[05:09:06] [Server thread/INFO]: [SrLipord: Played sound minecraft:entity.lightning_bolt.thunder to 3 players]
+[05:09:34] [Server thread/INFO]: [SrLipord: Played sound minecraft:entity.lightning_bolt.thunder to 3 players]
+[05:09:44] [Server thread/INFO]: Vector has made the advancement [Sneak 100]
+[05:11:53] [Server thread/INFO]: Vector teleported to -10746.5 138.0 -2538.5 minecraft:overworld
+[05:13:14] [Server thread/INFO]: Vector teleported to -10760.5 134.0 -2566.5 minecraft:overworld
+[05:14:19] [Server thread/INFO]: Gathorin teleported to 62541.0 153.0 1074699.0 minecraft:overworld
+[05:14:29] [Server thread/INFO]: [SrLipord: Played sound minecraft:entity.lightning_bolt.thunder to 3 players]

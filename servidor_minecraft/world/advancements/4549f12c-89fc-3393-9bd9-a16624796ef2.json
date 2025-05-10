@@ -3231,6 +3231,7 @@
   "repurposed_structures:outposts": {
     "criteria": {
       "in_outpost_taiga": "2025-04-17 21:41:01 +0000",
+      "in_outpost_badlands": "2025-05-10 05:15:28 +0000",
       "in_outpost_jungle": "2025-04-15 16:52:18 +0000"
     },
     "done": false
@@ -6021,7 +6022,7 @@
   },
   "senti:tick": {
     "criteria": {
-      "requirement": "2025-05-04 22:37:29 +0000"
+      "requirement": "2025-05-10 04:54:35 +0000"
     },
     "done": true
   },
@@ -6099,75 +6100,105 @@
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-05-10 04:34:51 +0000"
+      "log_spam_fixer": "2025-05-10 05:14:51 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-05-10 04:34:51 +0000"
+      "log_spam_fixer": "2025-05-10 05:14:51 +0000"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-05-10 04:34:51 +0000"
+      "log_spam_fixer": "2025-05-10 05:14:51 +0000"
     },
     "done": false
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "log_spam_fixer": "2025-05-10 04:34:51 +0000"
+      "log_spam_fixer": "2025-05-10 05:14:51 +0000"
     },
     "done": false
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-05-10 04:34:51 +0000"
+      "log_spam_fixer": "2025-05-10 05:14:51 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-05-10 04:34:51 +0000"
+      "log_spam_fixer": "2025-05-10 05:14:51 +0000"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-05-10 04:34:51 +0000"
+      "log_spam_fixer": "2025-05-10 05:14:51 +0000"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2025-05-10 04:34:51 +0000"
+      "log_spam_fixer": "2025-05-10 05:14:51 +0000"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2025-05-10 04:34:51 +0000"
+      "log_spam_fixer": "2025-05-10 05:14:51 +0000"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2025-05-10 04:34:51 +0000"
+      "log_spam_fixer": "2025-05-10 05:14:51 +0000"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-05-10 04:34:51 +0000"
+      "log_spam_fixer": "2025-05-10 05:14:51 +0000"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2025-05-10 04:34:51 +0000"
+      "log_spam_fixer": "2025-05-10 05:14:51 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/building_blocks/chiseled_red_sandstone": {
+    "criteria": {
+      "has_chiseled_red_sandstone": "2025-05-10 05:15:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_blasting_coal_ore": {
+    "criteria": {
+      "has_coal_ore": "2025-05-10 05:00:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_sandstone_slab": {
+    "criteria": {
+      "has_chiseled_red_sandstone": "2025-05-10 05:15:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_sandstone_stairs": {
+    "criteria": {
+      "has_chiseled_red_sandstone": "2025-05-10 05:15:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_smelting_coal_ore": {
+    "criteria": {
+      "has_coal_ore": "2025-05-10 05:00:02 +0000"
+    },
+    "done": true
   },
   "DataVersion": 4189
 }

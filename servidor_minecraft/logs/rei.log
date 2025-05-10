@@ -703,3 +703,7 @@ java.lang.Throwable
 [04:14:26] [Server thread/DEBUG] [REI] Player Observer has outdated displays version 0 [latest version: E0F2EA7400000001], sending reset packet request.
 [04:16:32] [Server thread/DEBUG] [REI] Player SrLipord has outdated displays version 0 [latest version: E0F2EA7400000001]
 [04:16:32] [Server thread/DEBUG] [REI] Player SrLipord has outdated displays version 0 [latest version: E0F2EA7400000001], sending reset packet request.
+[04:38:57] [Server thread/DEBUG] [REI] Player Gathorin has outdated displays version 0 [latest version: E0F2EA7400000001]
+[04:38:57] [Server thread/DEBUG] [REI] Player Gathorin has outdated displays version 0 [latest version: E0F2EA7400000001], sending reset packet request.
+[04:58:14] [Server thread/DEBUG] [REI] Player Vector has outdated displays version 0 [latest version: E0F2EA7400000001]
+[04:58:14] [Server thread/DEBUG] [REI] Player Vector has outdated displays version 0 [latest version: E0F2EA7400000001], sending reset packet request.
