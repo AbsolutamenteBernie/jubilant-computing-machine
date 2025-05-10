@@ -20105,3 +20105,91 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.class_8710$class_91
 [05:38:24] [Server thread/INFO]: Gathorin teleported to 56855.0 64.0 1056425.0 minecraft:overworld
 [05:39:39] [Server thread/INFO]: Villager class_1646['Unemployed'/83417, l='ServerLevel[world]', x=-8496.33, y=65.00, z=-2621.70] died, message: 'Unemployed suffocated in a wall'
 [05:40:25] [Server thread/INFO]: [Not Secure] <SrLipord> zzzzz
+[05:41:06] [Server thread/INFO]: [Gathorin: Set own game mode to Spectator Mode]
+[05:41:20] [Server thread/INFO]: [Gathorin: Set own game mode to Survival Mode]
+[05:41:28] [Server thread/INFO]: Gathorin teleported to -12270.5 -5.0 -1809.5 minecraft:overworld
+[05:44:19] [Server thread/ERROR]: Error executing task on Server
+java.lang.NullPointerException: Cannot invoke "net.minecraft.class_8710$class_9154.comp_2242()" because "type" is null
+	at knot/dev.architectury.impl.NetworkAggregator.collectPackets(NetworkAggregator.java:143) ~[architectury-15.0.3-fabric.jar:?]
+	at knot/dev.architectury.impl.NetworkAggregator.collectPackets(NetworkAggregator.java:137) ~[architectury-15.0.3-fabric.jar:?]
+	at knot/dev.architectury.networking.NetworkManager.collectPackets(NetworkManager.java:133) ~[architectury-15.0.3-fabric.jar:?]
+	at knot/dev.architectury.networking.NetworkManager.sendToPlayer(NetworkManager.java:142) ~[architectury-15.0.3-fabric.jar:?]
+	at knot/me.shedaniel.rei.plugin.common.displays.tag.TagNodes.lambda$init$1(TagNodes.java:137) ~[RoughlyEnoughItems-18.0.798-fabric.jar:?]
+	at knot/dev.architectury.impl.NetworkAggregator.lambda$registerReceiver$1(NetworkAggregator.java:71) ~[architectury-15.0.3-fabric.jar:?]
+	at knot/dev.architectury.impl.NetworkAggregator.lambda$registerC2SReceiver$3(NetworkAggregator.java:108) ~[architectury-15.0.3-fabric.jar:?]
+	at knot/dev.architectury.networking.transformers.SplitPacketTransformer.inbound(SplitPacketTransformer.java:174) ~[architectury-15.0.3-fabric.jar:?]
+	at knot/dev.architectury.impl.NetworkAggregator.lambda$registerC2SReceiver$4(NetworkAggregator.java:102) ~[architectury-15.0.3-fabric.jar:?]
+	at knot/dev.architectury.networking.fabric.NetworkManagerImpl$1.lambda$registerC2S$0(NetworkManagerImpl.java:58) ~[architectury-15.0.3-fabric.jar:?]
+	at knot/net.fabricmc.fabric.impl.networking.server.ServerPlayNetworkAddon.lambda$receive$0(ServerPlayNetworkAddon.java:74) ~[fabric-networking-api-v1-4.4.0+db5e668204-3d67c883c023e00c.jar:?]
+	at knot/net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_24306(MinecraftServer.java:889) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_18859(MinecraftServer.java:180) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:871) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:865) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_5383(class_1255.java:123) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:833) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:719) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:292) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[05:44:23] [Server thread/INFO]: Gathorin teleported to -293.5 -52.0 197.5 minecraft:overworld
+[05:44:36] [Server thread/INFO]: [Gathorin: Teleported Gathorin to SrLipord]
+[05:44:48] [Server thread/INFO]: Villager class_1646['Nitwit'/82727, l='ServerLevel[world]', x=-8538.93, y=76.50, z=-2601.70] died, message: 'Nitwit suffocated in a wall'
+[05:45:32] [Server thread/INFO]: Villager class_1646['Unemployed'/82728, l='ServerLevel[world]', x=-8537.93, y=76.50, z=-2602.59] died, message: 'Unemployed suffocated in a wall'
+[05:46:41] [Server thread/INFO]: Gathorin teleported to -11269.5 -60.0 -2857.5 minecraft:overworld
+[05:51:56] [Server thread/INFO]: Gathorin has made the advancement [Withering Heights]
+[05:53:24] [Server thread/WARN]: Oak Boat (vehicle of SrLipord) moved wrongly! 0.3894491801233926
+[05:53:24] [Server thread/WARN]: Oak Boat (vehicle of SrLipord) moved wrongly! 0.44712379217617126
+[05:53:49] [Server thread/INFO]: Gathorin teleported to -293.5 -52.0 197.5 minecraft:overworld
+[05:53:49] [Server thread/WARN]: Oak Boat (vehicle of SrLipord) moved too quickly! -3.3518976360201123,0.0,9.695243396036403
+[05:53:49] [Server thread/WARN]: Oak Boat (vehicle of SrLipord) moved too quickly! -3.6441404046981916,0.0,10.398091571238638
+[05:53:49] [Server thread/WARN]: Oak Boat (vehicle of SrLipord) moved too quickly! -3.940925654824241,0.0,11.125510547514295
+[05:53:49] [Server thread/WARN]: Oak Boat (vehicle of SrLipord) moved too quickly! -4.238534301550317,0.0,11.877805906713547
+[05:55:59] [Server thread/INFO]: Gathorin teleported to 60052.0 112.0 1066042.0 minecraft:overworld
+[05:58:46] [Server thread/INFO]: Gathorin teleported to 56216.0 100.0 1058399.0 minecraft:overworld
+[06:01:03] [Server thread/WARN]: Oak Boat (vehicle of SrLipord) moved too quickly! 4.2718585081402125,0.0,-9.482150201294644
+[06:01:03] [Server thread/WARN]: Oak Boat (vehicle of SrLipord) moved too quickly! 4.436160758453298,0.0,-9.846848285959823
+[06:01:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3100ms or 62 ticks behind
+[06:01:16] [Server thread/WARN]: Oak Boat (vehicle of SrLipord) moved too quickly! 8.105466706996594,0.0,-6.447410313471664
+[06:01:16] [Server thread/WARN]: Oak Boat (vehicle of SrLipord) moved too quickly! 8.426917267537647,0.0,-6.684867581776416
+[06:01:16] [Server thread/WARN]: Oak Boat (vehicle of SrLipord) moved too quickly! 8.748645545350882,0.0,-6.9220048158695135
+[06:01:16] [Server thread/WARN]: Oak Boat (vehicle of SrLipord) moved too quickly! 9.070628257677527,0.0,-7.158847799807518
+[06:01:16] [Server thread/WARN]: Oak Boat (vehicle of SrLipord) moved too quickly! 9.392842207410467,0.0,-7.395422849858733
+[06:01:16] [Server thread/WARN]: Oak Boat (vehicle of SrLipord) moved too quickly! 9.715268759778155,0.0,-7.631750541908332
+[06:01:16] [Server thread/WARN]: Oak Boat (vehicle of SrLipord) moved too quickly! 10.037888897137236,0.0,-7.867852501144625
+[06:01:16] [Server thread/WARN]: Oak Boat (vehicle of SrLipord) moved too quickly! 10.360685507333073,0.0,-8.103748192100284
+[06:01:16] [Server thread/WARN]: Oak Boat (vehicle of SrLipord) moved too quickly! 10.683643185703659,0.0,-8.339455130990245
+[06:01:16] [Server thread/WARN]: Oak Boat (vehicle of SrLipord) moved too quickly! 11.00674807177711,0.0,-8.574989082408138
+[06:01:16] [Server thread/WARN]: Oak Boat (vehicle of SrLipord) moved too quickly! 11.329987687404355,0.0,-8.810364234488588
+[06:01:16] [Server thread/WARN]: Oak Boat (vehicle of SrLipord) moved too quickly! 11.653350798525935,0.0,-9.045593358414408
+[06:01:16] [Server thread/WARN]: Oak Boat (vehicle of SrLipord) moved too quickly! 11.97682730193992,0.0,-9.280687944523379
+[06:01:16] [Server thread/WARN]: Oak Boat (vehicle of SrLipord) moved too quickly! 12.300408097314175,0.0,-9.515658335983971
+[06:01:16] [Server thread/WARN]: Oak Boat (vehicle of SrLipord) moved too quickly! 12.624082755450218,0.0,-9.750516952263752
+[06:01:16] [Server thread/WARN]: Oak Boat (vehicle of SrLipord) moved too quickly! 12.947844132693717,0.0,-9.985271858403394
+[06:01:16] [Server thread/WARN]: Oak Boat (vehicle of SrLipord) moved too quickly! 13.271683557131837,0.0,-10.219933425419185
+[06:01:16] [Server thread/WARN]: Oak Boat (vehicle of SrLipord) moved too quickly! 13.595595466668783,0.0,-10.454507876608659
+[06:01:16] [Server thread/WARN]: Oak Boat (vehicle of SrLipord) moved too quickly! 13.919572612792763,0.0,-10.689003923556811
+[06:01:16] [Server thread/WARN]: Oak Boat (vehicle of SrLipord) moved too quickly! 14.24360847184289,0.0,-10.923429406689138
+[06:01:16] [Server thread/WARN]: Oak Boat (vehicle of SrLipord) moved too quickly! 14.567699415150855,0.0,-11.157788268046716
+[06:01:16] [Server thread/WARN]: Oak Boat (vehicle of SrLipord) moved too quickly! 14.891839934288328,0.0,-11.392087169807382
+[06:01:16] [Server thread/WARN]: Oak Boat (vehicle of SrLipord) moved too quickly! 15.216025071672448,0.0,-11.626332107933194
+[06:01:16] [Server thread/WARN]: Oak Boat (vehicle of SrLipord) moved too quickly! 15.540250365476822,0.0,-11.860528478789092
+[06:01:16] [Server thread/WARN]: Oak Boat (vehicle of SrLipord) moved too quickly! 15.864514038958077,0.0,-12.09467802848576
+[06:01:16] [Server thread/WARN]: Oak Boat (vehicle of SrLipord) moved too quickly! 16.188812254147706,0.0,-12.32878543914012
+[06:01:16] [Server thread/WARN]: Oak Boat (vehicle of SrLipord) moved too quickly! 16.51314155687396,0.0,-12.562854924656676
+[06:01:16] [Server thread/WARN]: Oak Boat (vehicle of SrLipord) moved too quickly! 16.83749883838209,0.0,-12.796890277551029
+[06:01:16] [Server thread/WARN]: Oak Boat (vehicle of SrLipord) moved too quickly! 17.16188130079354,0.0,-13.030894911085852
+[06:01:16] [Server thread/WARN]: Oak Boat (vehicle of SrLipord) moved too quickly! 17.486286426017614,0.0,-13.264871897197736
+[06:01:16] [Server thread/WARN]: Oak Boat (vehicle of SrLipord) moved too quickly! 17.81071194777178,0.0,-13.49882400063052
+[06:01:16] [Server thread/WARN]: Oak Boat (vehicle of SrLipord) moved too quickly! 18.135155826403206,0.0,-13.73275370965166
+[06:01:16] [Server thread/WARN]: Oak Boat (vehicle of SrLipord) moved too quickly! 18.45961846884802,0.0,-13.96666015122355
+[06:01:16] [Server thread/WARN]: Oak Boat (vehicle of SrLipord) moved too quickly! 18.784097998724974,0.0,-14.200545652091023
+[06:01:16] [Server thread/WARN]: Oak Boat (vehicle of SrLipord) moved too quickly! 19.10859272728976,0.0,-14.434412306325612
+[06:01:16] [Server thread/WARN]: Oak Boat (vehicle of SrLipord) moved too quickly! 19.43310113467396,0.0,-14.668261998590424
+[06:01:16] [Server thread/WARN]: Oak Boat (vehicle of SrLipord) moved too quickly! 19.757621852994816,0.0,-14.902096425083073
+[06:01:16] [Server thread/WARN]: Oak Boat (vehicle of SrLipord) moved too quickly! 20.082153651158478,0.0,-15.135917112381321
+[06:01:16] [Server thread/WARN]: Oak Boat (vehicle of SrLipord) moved too quickly! 20.406695421180302,0.0,-15.369725434405154
+[06:01:16] [Server thread/WARN]: Oak Boat (vehicle of SrLipord) moved too quickly! 12.94692644069255,0.0,-9.393918269817732
+[06:01:18] [Worker-Main-6/WARN]: Ignoring unknown attribute 'neoforge:swim_speed'

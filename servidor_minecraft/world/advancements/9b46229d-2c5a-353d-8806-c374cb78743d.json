@@ -63,6 +63,7 @@
       "minecraft:deep_ocean": "2025-04-14 00:42:56 +0000",
       "minecraft:lush_caves": "2025-04-14 02:36:01 +0000",
       "minecraft:deep_cold_ocean": "2025-04-14 00:43:03 +0000",
+      "minecraft:frozen_ocean": "2025-05-10 05:51:11 +0000",
       "minecraft:eroded_badlands": "2025-04-14 02:47:21 +0000",
       "minecraft:desert": "2025-04-14 02:51:33 +0000",
       "minecraft:frozen_river": "2025-04-14 01:00:41 +0000",
@@ -70,6 +71,7 @@
       "minecraft:jungle": "2025-04-14 01:38:37 +0000",
       "minecraft:birch_forest": "2025-05-10 05:30:28 +0000",
       "minecraft:old_growth_spruce_taiga": "2025-04-14 02:12:47 +0000",
+      "minecraft:snowy_beach": "2025-05-10 05:52:55 +0000",
       "minecraft:wooded_badlands": "2025-04-15 15:54:09 +0000",
       "minecraft:bamboo_jungle": "2025-05-10 03:32:53 +0000",
       "minecraft:warm_ocean": "2025-04-15 02:28:35 +0000",
@@ -1542,17 +1544,18 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2025-04-15 16:28:15 +0000",
-      "minecraft:cave_spider": "2025-04-27 20:59:55 +0000",
       "minecraft:skeleton": "2025-04-14 03:02:52 +0000",
       "minecraft:phantom": "2025-04-15 21:25:27 +0000",
+      "minecraft:witch": "2025-04-14 22:27:32 +0000",
+      "minecraft:husk": "2025-04-14 03:01:59 +0000",
+      "minecraft:cave_spider": "2025-04-27 20:59:55 +0000",
       "minecraft:enderman": "2025-04-14 02:00:11 +0000",
       "minecraft:stray": "2025-05-03 19:26:41 +0000",
-      "minecraft:witch": "2025-04-14 22:27:32 +0000",
       "minecraft:spider": "2025-04-14 02:26:39 +0000",
       "minecraft:zombie": "2025-04-14 01:30:28 +0000",
       "minecraft:creeper": "2025-04-16 18:24:07 +0000",
-      "minecraft:zombie_villager": "2025-04-15 00:25:44 +0000",
-      "minecraft:husk": "2025-04-14 03:01:59 +0000"
+      "minecraft:drowned": "2025-05-10 05:47:50 +0000",
+      "minecraft:zombie_villager": "2025-04-15 00:25:44 +0000"
     },
     "done": false
   },
@@ -4384,79 +4387,85 @@
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-05-10 05:39:51 +0000"
+      "log_spam_fixer": "2025-05-10 05:59:50 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-05-10 05:39:51 +0000"
+      "log_spam_fixer": "2025-05-10 05:59:50 +0000"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-05-10 05:39:51 +0000"
+      "log_spam_fixer": "2025-05-10 05:59:50 +0000"
     },
     "done": false
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "log_spam_fixer": "2025-05-10 05:39:51 +0000"
+      "log_spam_fixer": "2025-05-10 05:59:50 +0000"
     },
     "done": false
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-05-10 05:39:51 +0000"
+      "log_spam_fixer": "2025-05-10 05:59:50 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-05-10 05:39:51 +0000"
+      "log_spam_fixer": "2025-05-10 05:59:50 +0000"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-05-10 05:39:51 +0000"
+      "log_spam_fixer": "2025-05-10 05:59:50 +0000"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2025-05-10 05:39:51 +0000"
+      "log_spam_fixer": "2025-05-10 05:59:50 +0000"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2025-05-10 05:39:51 +0000"
+      "log_spam_fixer": "2025-05-10 05:59:50 +0000"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2025-05-10 05:39:51 +0000"
+      "log_spam_fixer": "2025-05-10 05:59:50 +0000"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-05-10 05:39:51 +0000"
+      "log_spam_fixer": "2025-05-10 05:59:50 +0000"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2025-05-10 05:39:51 +0000"
+      "log_spam_fixer": "2025-05-10 05:59:50 +0000"
     },
     "done": false
   },
   "minecraft:nether/brew_potion": {
     "criteria": {
       "potion": "2025-05-10 05:33:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/packed_ice": {
+    "criteria": {
+      "has_ice": "2025-05-10 05:55:03 +0000"
     },
     "done": true
   },
