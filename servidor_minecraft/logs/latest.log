@@ -350,3 +350,7 @@
 [03:32:55] [Server thread/INFO]: Villager class_1646['Armorer'/2047, l='ServerLevel[world]', x=-11951.73, y=73.00, z=-1881.48] died, message: 'Armorer was slain by Zombie'
 [03:39:01] [Server thread/INFO]: Vector teleported to -10746.5 138.0 -2538.5 minecraft:overworld
 [03:43:17] [Server thread/INFO]: Vector teleported to -10917.5 138.0 -1741.5 minecraft:overworld
+[03:48:24] [Server thread/INFO]: Vector teleported to -10746.5 138.0 -2538.5 minecraft:overworld
+[03:48:28] [Server thread/INFO]: Vector lost connection: Disconnected
+[03:48:28] [Server thread/INFO]: Vector left the game
+[03:49:28] [Server thread/INFO]: Server empty for 60 seconds, pausing
