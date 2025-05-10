@@ -347,3 +347,15 @@
 [00:23:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2939ms or 58 ticks behind
 [00:23:29] [Server thread/INFO]: [do_a_barrel_roll] Client of SrLipord accepted server config.
 [00:24:48] [Server thread/INFO]: SrLipord teleported to -1149.5 254.0 -13073.5 minecraft:overworld
+[00:36:01] [Server thread/INFO]: [SrLipord: Set own game mode to Creative Mode]
+[00:36:06] [Server thread/WARN]: SrLipord moved too quickly! -1.088597415001459,0.0,-10.506755607420928
+[00:36:24] [Server thread/INFO]: [SrLipord: Set own game mode to Survival Mode]
+[00:38:12] [Server thread/INFO]: KHPL707[/127.57.100.143:47335] logged in with entity id 2634 at (3465.345712021939, 133.0, -66.94858855844642)
+[00:38:12] [Server thread/INFO]: KHPL707 joined the game
+[00:38:15] [Server thread/INFO]: [do_a_barrel_roll] Client of KHPL707 accepted server config.
+[00:43:26] [Server thread/INFO]: SrLipord teleported to -1247.5 123.0 -12834.5 minecraft:overworld
+[00:43:52] [Server thread/INFO]: SrLipord teleported to -1150.5 166.0 -13071.5 minecraft:overworld
+[00:43:58] [Server thread/INFO]: SrLipord teleported to -1083.5 191.0 -13121.5 minecraft:overworld
+[00:44:06] [Server thread/INFO]: SrLipord teleported to -1247.5 123.0 -12834.5 minecraft:overworld
+[00:44:18] [Server thread/INFO]: SrLipord teleported to -1247.5 123.0 -12834.5 minecraft:overworld
+[00:44:22] [Server thread/INFO]: SrLipord teleported to -1149.5 254.0 -13073.5 minecraft:overworld
