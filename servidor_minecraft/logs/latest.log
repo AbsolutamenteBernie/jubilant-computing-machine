@@ -19935,3 +19935,18 @@ Caused by: java.lang.IllegalStateException: Retrieved chunk position [-72, 14] d
 [04:27:11] [Server thread/INFO]: [Observer: Set own game mode to Creative Mode]
 [04:27:27] [Server thread/INFO]: [Observer: Set own game mode to Spectator Mode]
 [04:27:48] [Server thread/INFO]: [Observer: Set own game mode to Creative Mode]
+[04:31:27] [Server thread/INFO]: [Observer: Set own game mode to Spectator Mode]
+[04:32:08] [Server thread/INFO]: [Observer: Set own game mode to Creative Mode]
+[04:32:58] [Server thread/INFO]: [Observer: Set own game mode to Spectator Mode]
+[04:33:07] [Server thread/INFO]: Observer teleported to -11270.5 -56.0 -2855.5 minecraft:overworld
+[04:33:30] [Server thread/INFO]: [Observer: Set own game mode to Creative Mode]
+[04:33:55] [Server thread/INFO]: [Observer: Set own game mode to Spectator Mode]
+[04:34:34] [Server thread/INFO]: [Observer: Set own game mode to Creative Mode]
+[04:34:51] [Server thread/INFO]: [Observer: Set own game mode to Spectator Mode]
+[04:34:59] [Server thread/WARN]: Vector moved too quickly! -8.863569462149826,3.0,3.822405175554195
+[04:35:26] [Server thread/INFO]: Observer teleported to 2054.0 128.0 -5239.0 minecraft:overworld
+[04:37:29] [Server thread/INFO]: [Observer: Set own game mode to Creative Mode]
+[04:37:47] [Server thread/INFO]: Locating element minecraft:trial_chambers took 0 ms
+[04:37:51] [Server thread/INFO]: [Observer: Teleported Observer to 1248.500000, -46.800000, -4735.500000]
+[04:37:55] [Server thread/INFO]: [Observer: Set own game mode to Spectator Mode]
+[04:38:25] [Server thread/INFO]: [Observer: Set own game mode to Creative Mode]
