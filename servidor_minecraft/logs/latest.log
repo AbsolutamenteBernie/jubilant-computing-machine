@@ -18637,3 +18637,1301 @@ Caused by: java.lang.IllegalStateException: Retrieved chunk position [-86, 37] d
 	at knot/net.minecraft.class_9820.method_60997(class_9820.java:20) ~[server-intermediary.jar:?]
 	... 17 more
 [04:17:41] [IO-Worker-72/INFO]: Saved details to debug/chunk-world-2025-05-10_04.17.41-server.txt
+[04:17:44] [Server thread/ERROR]: Chunk file at [-66, 57] is in the wrong location; relocating. (Expected [-66, 57], got [-88, 35])
+[04:17:44] [Server thread/ERROR]: Failed to load chunk -66,57
+net.minecraft.class_148: Chunk found in invalid location
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:23) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9820.method_60998(class_9820.java:30) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2852.method_12395(class_2852.java:249) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3898.method_43375(class_3898.java:591) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_18859(class_3215.java:602) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_16075(class_3215.java:611) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215.method_19492(class_3215.java:277) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:877) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:865) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_5383(class_1255.java:123) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:833) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:719) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:292) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [-88, 35] does not match requested [-66, 57]
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:20) ~[server-intermediary.jar:?]
+	... 17 more
+[04:17:44] [IO-Worker-96/INFO]: Saved details to debug/chunk-world-2025-05-10_04.17.44-server.txt
+[04:17:45] [Server thread/INFO]: [Observer: Set own game mode to Creative Mode]
+[04:17:51] [Server thread/INFO]: [Observer: Set own game mode to Spectator Mode]
+[04:18:10] [Server thread/ERROR]: Chunk file at [-95, 10] is in the wrong location; relocating. (Expected [-95, 10], got [-65, 11])
+[04:18:10] [Server thread/ERROR]: Failed to load chunk -95,10
+net.minecraft.class_148: Chunk found in invalid location
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:23) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9820.method_60998(class_9820.java:30) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2852.method_12395(class_2852.java:249) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3898.method_43375(class_3898.java:591) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_18859(class_3215.java:602) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_16075(class_3215.java:611) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215.method_19492(class_3215.java:277) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:877) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:865) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_18857(class_1255.java:147) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:829) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:836) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:719) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:292) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [-65, 11] does not match requested [-95, 10]
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:20) ~[server-intermediary.jar:?]
+	... 18 more
+[04:18:10] [Server thread/WARN]: Found invalid structure reference [ minecraft:mineshaft @ [-61, 6] ] for chunk [-95, 10].
+[04:18:10] [Server thread/ERROR]: Chunk file at [-92, 10] is in the wrong location; relocating. (Expected [-92, 10], got [-72, 14])
+[04:18:10] [IO-Worker-89/INFO]: Saved details to debug/chunk-world-2025-05-10_04.18.10-server.txt
+[04:18:10] [Server thread/ERROR]: Failed to load chunk -92,10
+net.minecraft.class_148: Chunk found in invalid location
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:23) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9820.method_60998(class_9820.java:30) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2852.method_12395(class_2852.java:249) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3898.method_43375(class_3898.java:591) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_18859(class_3215.java:602) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_16075(class_3215.java:611) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215.method_19492(class_3215.java:277) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:877) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:865) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_18857(class_1255.java:147) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:829) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:836) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:719) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:292) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [-72, 14] does not match requested [-92, 10]
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:20) ~[server-intermediary.jar:?]
+	... 18 more
+[04:18:10] [IO-Worker-89/INFO]: Saved details to debug/chunk-world-2025-05-10_04.18.10-server.txt
+[04:18:32] [Server thread/ERROR]: Chunk file at [-95, 10] is in the wrong location; relocating. (Expected [-95, 10], got [-65, 11])
+[04:18:32] [Server thread/ERROR]: Failed to load chunk -95,10
+net.minecraft.class_148: Chunk found in invalid location
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:23) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9820.method_60998(class_9820.java:30) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2852.method_12395(class_2852.java:249) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3898.method_43375(class_3898.java:591) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_18859(class_3215.java:602) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_16075(class_3215.java:611) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215.method_19492(class_3215.java:277) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:877) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:865) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_18857(class_1255.java:147) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:829) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:836) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:719) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:292) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [-65, 11] does not match requested [-95, 10]
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:20) ~[server-intermediary.jar:?]
+	... 18 more
+[04:18:32] [Server thread/WARN]: Found invalid structure reference [ minecraft:mineshaft @ [-61, 6] ] for chunk [-95, 10].
+[04:18:32] [IO-Worker-96/INFO]: Saved details to debug/chunk-world-2025-05-10_04.18.32-server.txt
+[04:18:32] [Server thread/ERROR]: Chunk file at [-92, 10] is in the wrong location; relocating. (Expected [-92, 10], got [-72, 14])
+[04:18:32] [Server thread/ERROR]: Failed to load chunk -92,10
+net.minecraft.class_148: Chunk found in invalid location
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:23) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9820.method_60998(class_9820.java:30) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2852.method_12395(class_2852.java:249) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3898.method_43375(class_3898.java:591) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_18859(class_3215.java:602) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_16075(class_3215.java:611) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215.method_19492(class_3215.java:277) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:877) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:865) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_5383(class_1255.java:123) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:833) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:719) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:292) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [-72, 14] does not match requested [-92, 10]
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:20) ~[server-intermediary.jar:?]
+	... 17 more
+[04:18:32] [IO-Worker-97/INFO]: Saved details to debug/chunk-world-2025-05-10_04.18.32-server.txt
+[04:18:33] [Server thread/ERROR]: Chunk file at [-78, 10] is in the wrong location; relocating. (Expected [-78, 10], got [-68, 12])
+[04:18:33] [Server thread/ERROR]: Failed to load chunk -78,10
+net.minecraft.class_148: Chunk found in invalid location
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:23) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9820.method_60998(class_9820.java:30) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2852.method_12395(class_2852.java:249) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3898.method_43375(class_3898.java:591) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_18859(class_3215.java:602) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_16075(class_3215.java:611) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215.method_19492(class_3215.java:277) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:877) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:865) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_18857(class_1255.java:147) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:829) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:836) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:719) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:292) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [-68, 12] does not match requested [-78, 10]
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:20) ~[server-intermediary.jar:?]
+	... 18 more
+[04:18:33] [IO-Worker-89/INFO]: Saved details to debug/chunk-world-2025-05-10_04.18.33-server.txt
+[04:18:39] [Server thread/ERROR]: Chunk file at [-60, 36] is in the wrong location; relocating. (Expected [-60, 36], got [-41, 53])
+[04:18:39] [Server thread/ERROR]: Failed to load chunk -60,36
+net.minecraft.class_148: Chunk found in invalid location
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:23) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9820.method_60998(class_9820.java:30) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2852.method_12395(class_2852.java:249) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3898.method_43375(class_3898.java:591) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_18859(class_3215.java:602) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_16075(class_3215.java:611) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215.method_19492(class_3215.java:277) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:877) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:865) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_5383(class_1255.java:123) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:833) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:719) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:292) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [-41, 53] does not match requested [-60, 36]
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:20) ~[server-intermediary.jar:?]
+	... 17 more
+[04:18:39] [Server thread/ERROR]: Chunk file at [-60, 38] is in the wrong location; relocating. (Expected [-60, 38], got [-35, 59])
+[04:18:39] [IO-Worker-91/INFO]: Saved details to debug/chunk-world-2025-05-10_04.18.39-server.txt
+[04:18:39] [Server thread/ERROR]: Failed to load chunk -60,38
+net.minecraft.class_148: Chunk found in invalid location
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:23) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9820.method_60998(class_9820.java:30) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2852.method_12395(class_2852.java:249) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3898.method_43375(class_3898.java:591) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_18859(class_3215.java:602) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_16075(class_3215.java:611) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215.method_19492(class_3215.java:277) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:877) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:865) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_5383(class_1255.java:123) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:833) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:719) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:292) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [-35, 59] does not match requested [-60, 38]
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:20) ~[server-intermediary.jar:?]
+	... 17 more
+[04:18:39] [IO-Worker-93/INFO]: Saved details to debug/chunk-world-2025-05-10_04.18.39-server.txt
+[04:18:39] [Server thread/ERROR]: Chunk file at [-60, 33] is in the wrong location; relocating. (Expected [-60, 33], got [-34, 40])
+[04:18:39] [Server thread/ERROR]: Failed to load chunk -60,33
+net.minecraft.class_148: Chunk found in invalid location
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:23) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9820.method_60998(class_9820.java:30) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2852.method_12395(class_2852.java:249) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3898.method_43375(class_3898.java:591) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_18859(class_3215.java:602) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_16075(class_3215.java:611) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215.method_19492(class_3215.java:277) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:877) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:865) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_5383(class_1255.java:123) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:833) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:719) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:292) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [-34, 40] does not match requested [-60, 33]
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:20) ~[server-intermediary.jar:?]
+	... 17 more
+[04:18:39] [Server thread/ERROR]: Chunk file at [-60, 35] is in the wrong location; relocating. (Expected [-60, 35], got [-35, 51])
+[04:18:39] [IO-Worker-93/INFO]: Saved details to debug/chunk-world-2025-05-10_04.18.39-server.txt
+[04:18:39] [Server thread/ERROR]: Failed to load chunk -60,35
+net.minecraft.class_148: Chunk found in invalid location
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:23) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9820.method_60998(class_9820.java:30) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2852.method_12395(class_2852.java:249) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3898.method_43375(class_3898.java:591) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_18859(class_3215.java:602) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_16075(class_3215.java:611) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215.method_19492(class_3215.java:277) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:877) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:865) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_5383(class_1255.java:123) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:833) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:719) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:292) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [-35, 51] does not match requested [-60, 35]
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:20) ~[server-intermediary.jar:?]
+	... 17 more
+[04:18:39] [IO-Worker-93/INFO]: Saved details to debug/chunk-world-2025-05-10_04.18.39-server.txt
+[04:18:39] [Server thread/ERROR]: Chunk file at [-60, 37] is in the wrong location; relocating. (Expected [-60, 37], got [-60, 40])
+[04:18:39] [Server thread/ERROR]: Failed to load chunk -60,37
+net.minecraft.class_148: Chunk found in invalid location
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:23) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9820.method_60998(class_9820.java:30) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2852.method_12395(class_2852.java:249) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3898.method_43375(class_3898.java:591) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_18859(class_3215.java:602) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_16075(class_3215.java:611) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215.method_19492(class_3215.java:277) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:877) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:865) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_5383(class_1255.java:123) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:833) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:719) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:292) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [-60, 40] does not match requested [-60, 37]
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:20) ~[server-intermediary.jar:?]
+	... 17 more
+[04:18:39] [Server thread/ERROR]: Chunk file at [-60, 47] is in the wrong location; relocating. (Expected [-60, 47], got [-36, 36])
+[04:18:39] [IO-Worker-93/INFO]: Saved details to debug/chunk-world-2025-05-10_04.18.39-server.txt
+[04:18:39] [Server thread/ERROR]: Failed to load chunk -60,47
+net.minecraft.class_148: Chunk found in invalid location
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:23) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9820.method_60998(class_9820.java:30) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2852.method_12395(class_2852.java:249) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3898.method_43375(class_3898.java:591) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_18859(class_3215.java:602) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_16075(class_3215.java:611) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215.method_19492(class_3215.java:277) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:877) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:865) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_5383(class_1255.java:123) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:833) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:719) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:292) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [-36, 36] does not match requested [-60, 47]
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:20) ~[server-intermediary.jar:?]
+	... 17 more
+[04:18:39] [IO-Worker-93/INFO]: Saved details to debug/chunk-world-2025-05-10_04.18.39-server.txt
+[04:18:39] [Server thread/ERROR]: Chunk file at [-60, 42] is in the wrong location; relocating. (Expected [-60, 42], got [-39, 58])
+[04:18:39] [Server thread/ERROR]: Failed to load chunk -60,42
+net.minecraft.class_148: Chunk found in invalid location
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:23) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9820.method_60998(class_9820.java:30) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2852.method_12395(class_2852.java:249) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3898.method_43375(class_3898.java:591) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_18859(class_3215.java:602) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_16075(class_3215.java:611) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215.method_19492(class_3215.java:277) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:877) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:865) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_5383(class_1255.java:123) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:833) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:719) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:292) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [-39, 58] does not match requested [-60, 42]
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:20) ~[server-intermediary.jar:?]
+	... 17 more
+[04:18:39] [IO-Worker-93/INFO]: Saved details to debug/chunk-world-2025-05-10_04.18.39-server.txt
+[04:18:46] [Worker-Main-6/WARN]: Tried to access a block entity before it was created. class_2339{x=-1024, y=-18, z=271}
+[04:19:03] [IO-Worker-96/ERROR]: Declared size -154488977 of chunk [-50, 34] is negative
+[04:19:03] [Server thread/ERROR]: Chunk file at [-50, 32] is in the wrong location; relocating. (Expected [-50, 32], got [-37, 36])
+[04:19:03] [Server thread/ERROR]: Failed to load chunk -50,32
+net.minecraft.class_148: Chunk found in invalid location
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:23) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9820.method_60998(class_9820.java:30) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2852.method_12395(class_2852.java:249) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3898.method_43375(class_3898.java:591) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_18859(class_3215.java:602) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_16075(class_3215.java:611) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215.method_19492(class_3215.java:277) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:877) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:865) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_18857(class_1255.java:147) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:829) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:836) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:719) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:292) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [-37, 36] does not match requested [-50, 32]
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:20) ~[server-intermediary.jar:?]
+	... 18 more
+[04:19:03] [Server thread/ERROR]: Chunk file at [-50, 33] is in the wrong location; relocating. (Expected [-50, 33], got [-43, 41])
+[04:19:03] [IO-Worker-96/INFO]: Saved details to debug/chunk-world-2025-05-10_04.19.03-server.txt
+[04:19:03] [Server thread/ERROR]: Failed to load chunk -50,33
+net.minecraft.class_148: Chunk found in invalid location
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:23) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9820.method_60998(class_9820.java:30) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2852.method_12395(class_2852.java:249) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3898.method_43375(class_3898.java:591) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_18859(class_3215.java:602) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_16075(class_3215.java:611) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215.method_19492(class_3215.java:277) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:877) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:865) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_18857(class_1255.java:147) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:829) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:836) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:719) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:292) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [-43, 41] does not match requested [-50, 33]
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:20) ~[server-intermediary.jar:?]
+	... 18 more
+[04:19:03] [IO-Worker-96/INFO]: Saved details to debug/chunk-world-2025-05-10_04.19.03-server.txt
+[04:19:05] [Server thread/ERROR]: Chunk file at [-49, 32] is in the wrong location; relocating. (Expected [-49, 32], got [-57, 33])
+[04:19:05] [Server thread/ERROR]: Failed to load chunk -49,32
+net.minecraft.class_148: Chunk found in invalid location
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:23) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9820.method_60998(class_9820.java:30) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2852.method_12395(class_2852.java:249) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3898.method_43375(class_3898.java:591) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_18859(class_3215.java:602) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_16075(class_3215.java:611) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215.method_19492(class_3215.java:277) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:877) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:865) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_18857(class_1255.java:147) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:829) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:836) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:719) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:292) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [-57, 33] does not match requested [-49, 32]
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:20) ~[server-intermediary.jar:?]
+	... 18 more
+[04:19:05] [Server thread/ERROR]: Chunk file at [-49, 33] is in the wrong location; relocating. (Expected [-49, 33], got [-37, 63])
+[04:19:05] [IO-Worker-89/INFO]: Saved details to debug/chunk-world-2025-05-10_04.19.05-server.txt
+[04:19:05] [Server thread/ERROR]: Failed to load chunk -49,33
+net.minecraft.class_148: Chunk found in invalid location
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:23) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9820.method_60998(class_9820.java:30) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2852.method_12395(class_2852.java:249) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3898.method_43375(class_3898.java:591) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_18859(class_3215.java:602) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_16075(class_3215.java:611) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215.method_19492(class_3215.java:277) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:877) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:865) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_18857(class_1255.java:147) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:829) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:836) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:719) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:292) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [-37, 63] does not match requested [-49, 33]
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:20) ~[server-intermediary.jar:?]
+	... 18 more
+[04:19:05] [IO-Worker-89/INFO]: Saved details to debug/chunk-world-2025-05-10_04.19.05-server.txt
+[04:19:05] [Server thread/ERROR]: Chunk file at [-49, 34] is in the wrong location; relocating. (Expected [-49, 34], got [-33, 52])
+[04:19:05] [Server thread/ERROR]: Failed to load chunk -49,34
+net.minecraft.class_148: Chunk found in invalid location
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:23) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9820.method_60998(class_9820.java:30) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2852.method_12395(class_2852.java:249) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3898.method_43375(class_3898.java:591) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_18859(class_3215.java:602) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_16075(class_3215.java:611) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215.method_19492(class_3215.java:277) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:877) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:865) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_5383(class_1255.java:123) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:833) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:719) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:292) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [-33, 52] does not match requested [-49, 34]
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:20) ~[server-intermediary.jar:?]
+	... 17 more
+[04:19:05] [Server thread/WARN]: Found invalid structure reference [ repurposed_structures:mineshaft_ocean @ [-29, 53] ] for chunk [-49, 34].
+[04:19:05] [Server thread/WARN]: Found invalid structure reference [ minecraft:mineshaft @ [-29, 53] ] for chunk [-49, 34].
+[04:19:06] [IO-Worker-89/INFO]: Saved details to debug/chunk-world-2025-05-10_04.19.05-server.txt
+[04:19:06] [IO-Worker-97/WARN]: Chunk has both internal and external streams
+[04:19:06] [IO-Worker-97/ERROR]: External chunk path ./world/region/c.-48.33.mcc is not file
+[04:19:06] [Server thread/ERROR]: Chunk file at [-48, 32] is in the wrong location; relocating. (Expected [-48, 32], got [-38, 35])
+[04:19:06] [Server thread/ERROR]: Failed to load chunk -48,32
+net.minecraft.class_148: Chunk found in invalid location
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:23) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9820.method_60998(class_9820.java:30) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2852.method_12395(class_2852.java:249) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3898.method_43375(class_3898.java:591) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_18859(class_3215.java:602) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_16075(class_3215.java:611) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215.method_19492(class_3215.java:277) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:877) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:865) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_18857(class_1255.java:147) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:829) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:836) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:719) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:292) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [-38, 35] does not match requested [-48, 32]
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:20) ~[server-intermediary.jar:?]
+	... 18 more
+[04:19:06] [Server thread/ERROR]: Chunk file at [-48, 34] is in the wrong location; relocating. (Expected [-48, 34], got [-35, 60])
+[04:19:06] [IO-Worker-96/INFO]: Saved details to debug/chunk-world-2025-05-10_04.19.06-server.txt
+[04:19:06] [Server thread/ERROR]: Failed to load chunk -48,34
+net.minecraft.class_148: Chunk found in invalid location
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:23) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9820.method_60998(class_9820.java:30) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2852.method_12395(class_2852.java:249) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3898.method_43375(class_3898.java:591) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_18859(class_3215.java:602) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_16075(class_3215.java:611) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215.method_19492(class_3215.java:277) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:877) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:865) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_18857(class_1255.java:147) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:829) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:836) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:719) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:292) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [-35, 60] does not match requested [-48, 34]
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:20) ~[server-intermediary.jar:?]
+	... 18 more
+[04:19:06] [IO-Worker-96/INFO]: Saved details to debug/chunk-world-2025-05-10_04.19.06-server.txt
+[04:19:07] [IO-Worker-89/ERROR]: Chunk [-47, 34] stream is truncated: expected 6459 but read 4091
+[04:19:07] [Server thread/ERROR]: Chunk file at [-47, 32] is in the wrong location; relocating. (Expected [-47, 32], got [-36, 47])
+[04:19:07] [Server thread/ERROR]: Failed to load chunk -47,32
+net.minecraft.class_148: Chunk found in invalid location
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:23) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9820.method_60998(class_9820.java:30) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2852.method_12395(class_2852.java:249) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3898.method_43375(class_3898.java:591) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_18859(class_3215.java:602) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_16075(class_3215.java:611) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215.method_19492(class_3215.java:277) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:877) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:865) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_18857(class_1255.java:147) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:829) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:836) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:719) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:292) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [-36, 47] does not match requested [-47, 32]
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:20) ~[server-intermediary.jar:?]
+	... 18 more
+[04:19:07] [Server thread/ERROR]: Chunk file at [-47, 33] is in the wrong location; relocating. (Expected [-47, 33], got [-35, 41])
+[04:19:07] [IO-Worker-97/INFO]: Saved details to debug/chunk-world-2025-05-10_04.19.07-server.txt
+[04:19:07] [Server thread/ERROR]: Failed to load chunk -47,33
+net.minecraft.class_148: Chunk found in invalid location
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:23) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9820.method_60998(class_9820.java:30) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2852.method_12395(class_2852.java:249) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3898.method_43375(class_3898.java:591) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_18859(class_3215.java:602) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_16075(class_3215.java:611) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215.method_19492(class_3215.java:277) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:877) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:865) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_18857(class_1255.java:147) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:829) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:836) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:719) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:292) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [-35, 41] does not match requested [-47, 33]
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:20) ~[server-intermediary.jar:?]
+	... 18 more
+[04:19:07] [IO-Worker-97/INFO]: Saved details to debug/chunk-world-2025-05-10_04.19.07-server.txt
+[04:19:07] [Server thread/ERROR]: Chunk file at [-71, 45] is in the wrong location; relocating. (Expected [-71, 45], got [-69, 47])
+[04:19:07] [Server thread/ERROR]: Failed to load chunk -71,45
+net.minecraft.class_148: Chunk found in invalid location
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:23) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9820.method_60998(class_9820.java:30) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2852.method_12395(class_2852.java:249) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3898.method_43375(class_3898.java:591) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_18859(class_3215.java:602) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_16075(class_3215.java:611) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215.method_19492(class_3215.java:277) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:877) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:865) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_18857(class_1255.java:147) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:829) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:836) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:719) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:292) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [-69, 47] does not match requested [-71, 45]
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:20) ~[server-intermediary.jar:?]
+	... 18 more
+[04:19:07] [IO-Worker-96/INFO]: Saved details to debug/chunk-world-2025-05-10_04.19.07-server.txt
+[04:19:08] [IO-Worker-98/ERROR]: Chunk [-46, 33] stream is truncated: expected 5572 but read 4091
+[04:19:08] [Server thread/ERROR]: Chunk file at [-46, 32] is in the wrong location; relocating. (Expected [-46, 32], got [-52, 34])
+[04:19:08] [IO-Worker-97/ERROR]: Declared size -1565685710 of chunk [-46, 34] is negative
+[04:19:08] [Server thread/ERROR]: Failed to load chunk -46,32
+net.minecraft.class_148: Chunk found in invalid location
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:23) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9820.method_60998(class_9820.java:30) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2852.method_12395(class_2852.java:249) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3898.method_43375(class_3898.java:591) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_18859(class_3215.java:602) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_16075(class_3215.java:611) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215.method_19492(class_3215.java:277) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:877) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:865) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_18857(class_1255.java:147) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:829) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:836) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:719) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:292) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [-52, 34] does not match requested [-46, 32]
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:20) ~[server-intermediary.jar:?]
+	... 18 more
+[04:19:08] [IO-Worker-97/INFO]: Saved details to debug/chunk-world-2025-05-10_04.19.08-server.txt
+[04:19:08] [IO-Worker-96/WARN]: Chunk has both internal and external streams
+[04:19:08] [IO-Worker-96/ERROR]: External chunk path ./world/region/c.-45.34.mcc is not file
+[04:19:08] [Server thread/ERROR]: Chunk file at [-45, 32] is in the wrong location; relocating. (Expected [-45, 32], got [-44, 55])
+[04:19:08] [Server thread/ERROR]: Failed to load chunk -45,32
+net.minecraft.class_148: Chunk found in invalid location
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:23) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9820.method_60998(class_9820.java:30) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2852.method_12395(class_2852.java:249) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3898.method_43375(class_3898.java:591) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_18859(class_3215.java:602) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_16075(class_3215.java:611) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215.method_19492(class_3215.java:277) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:877) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:865) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_18857(class_1255.java:147) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:829) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:836) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:719) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:292) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [-44, 55] does not match requested [-45, 32]
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:20) ~[server-intermediary.jar:?]
+	... 18 more
+[04:19:08] [Server thread/ERROR]: Chunk file at [-45, 33] is in the wrong location; relocating. (Expected [-45, 33], got [-53, 40])
+[04:19:08] [IO-Worker-91/INFO]: Saved details to debug/chunk-world-2025-05-10_04.19.08-server.txt
+[04:19:08] [Server thread/ERROR]: Failed to load chunk -45,33
+net.minecraft.class_148: Chunk found in invalid location
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:23) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9820.method_60998(class_9820.java:30) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2852.method_12395(class_2852.java:249) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3898.method_43375(class_3898.java:591) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_18859(class_3215.java:602) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_16075(class_3215.java:611) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215.method_19492(class_3215.java:277) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:877) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:865) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_18857(class_1255.java:147) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:829) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:836) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:719) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:292) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [-53, 40] does not match requested [-45, 33]
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:20) ~[server-intermediary.jar:?]
+	... 18 more
+[04:19:08] [IO-Worker-91/INFO]: Saved details to debug/chunk-world-2025-05-10_04.19.08-server.txt
+[04:19:10] [IO-Worker-96/ERROR]: Chunk [-44, 34] stream is truncated: expected 7541 but read 4091
+[04:19:10] [Server thread/ERROR]: Chunk file at [-44, 32] is in the wrong location; relocating. (Expected [-44, 32], got [-38, 56])
+[04:19:10] [Server thread/ERROR]: Failed to load chunk -44,32
+net.minecraft.class_148: Chunk found in invalid location
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:23) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9820.method_60998(class_9820.java:30) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2852.method_12395(class_2852.java:249) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3898.method_43375(class_3898.java:591) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_18859(class_3215.java:602) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_16075(class_3215.java:611) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215.method_19492(class_3215.java:277) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:877) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:865) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_18857(class_1255.java:147) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:829) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:836) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:719) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:292) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [-38, 56] does not match requested [-44, 32]
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:20) ~[server-intermediary.jar:?]
+	... 18 more
+[04:19:10] [IO-Worker-97/INFO]: Saved details to debug/chunk-world-2025-05-10_04.19.10-server.txt
+[04:19:10] [Server thread/ERROR]: Chunk file at [-44, 33] is in the wrong location; relocating. (Expected [-44, 33], got [-42, 56])
+[04:19:10] [Server thread/ERROR]: Failed to load chunk -44,33
+net.minecraft.class_148: Chunk found in invalid location
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:23) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9820.method_60998(class_9820.java:30) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2852.method_12395(class_2852.java:249) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3898.method_43375(class_3898.java:591) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_18859(class_3215.java:602) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_16075(class_3215.java:611) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215.method_19492(class_3215.java:277) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:877) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:865) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_5383(class_1255.java:123) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:833) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:719) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:292) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [-42, 56] does not match requested [-44, 33]
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:20) ~[server-intermediary.jar:?]
+	... 17 more
+[04:19:10] [IO-Worker-97/INFO]: Saved details to debug/chunk-world-2025-05-10_04.19.10-server.txt
+[04:19:11] [IO-Worker-91/ERROR]: Chunk [-43, 32] stream is truncated: expected 7315 but read 4091
+[04:19:11] [IO-Worker-91/ERROR]: Chunk [-43, 34] stream is truncated: expected 7927 but read 4091
+[04:19:11] [Server thread/ERROR]: Chunk file at [-43, 33] is in the wrong location; relocating. (Expected [-43, 33], got [-39, 52])
+[04:19:11] [Server thread/ERROR]: Failed to load chunk -43,33
+net.minecraft.class_148: Chunk found in invalid location
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:23) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9820.method_60998(class_9820.java:30) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2852.method_12395(class_2852.java:249) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3898.method_43375(class_3898.java:591) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_18859(class_3215.java:602) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_16075(class_3215.java:611) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215.method_19492(class_3215.java:277) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:877) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:865) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_18857(class_1255.java:147) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:829) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:836) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:719) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:292) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [-39, 52] does not match requested [-43, 33]
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:20) ~[server-intermediary.jar:?]
+	... 18 more
+[04:19:11] [IO-Worker-97/INFO]: Saved details to debug/chunk-world-2025-05-10_04.19.11-server.txt
+[04:19:11] [Server thread/ERROR]: Chunk file at [-60, 47] is in the wrong location; relocating. (Expected [-60, 47], got [-36, 36])
+[04:19:11] [Server thread/ERROR]: Failed to load chunk -60,47
+net.minecraft.class_148: Chunk found in invalid location
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:23) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9820.method_60998(class_9820.java:30) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2852.method_12395(class_2852.java:249) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3898.method_43375(class_3898.java:591) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_18859(class_3215.java:602) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_16075(class_3215.java:611) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215.method_19492(class_3215.java:277) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:877) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:865) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_18857(class_1255.java:147) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:829) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:836) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:719) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:292) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [-36, 36] does not match requested [-60, 47]
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:20) ~[server-intermediary.jar:?]
+	... 18 more
+[04:19:11] [IO-Worker-96/INFO]: Saved details to debug/chunk-world-2025-05-10_04.19.11-server.txt
+[04:19:12] [IO-Worker-92/ERROR]: Declared size -14878089 of chunk [-42, 34] is negative
+[04:19:12] [Server thread/ERROR]: Chunk file at [-42, 32] is in the wrong location; relocating. (Expected [-42, 32], got [-37, 46])
+[04:19:12] [Server thread/ERROR]: Failed to load chunk -42,32
+net.minecraft.class_148: Chunk found in invalid location
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:23) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9820.method_60998(class_9820.java:30) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2852.method_12395(class_2852.java:249) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3898.method_43375(class_3898.java:591) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_18859(class_3215.java:602) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_16075(class_3215.java:611) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215.method_19492(class_3215.java:277) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:877) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:865) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_5383(class_1255.java:123) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:833) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:719) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:292) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [-37, 46] does not match requested [-42, 32]
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:20) ~[server-intermediary.jar:?]
+	... 17 more
+[04:19:12] [IO-Worker-97/INFO]: Saved details to debug/chunk-world-2025-05-10_04.19.12-server.txt
+[04:19:12] [Server thread/ERROR]: Chunk file at [-42, 33] is in the wrong location; relocating. (Expected [-42, 33], got [-43, 55])
+[04:19:12] [Server thread/ERROR]: Failed to load chunk -42,33
+net.minecraft.class_148: Chunk found in invalid location
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:23) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9820.method_60998(class_9820.java:30) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2852.method_12395(class_2852.java:249) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3898.method_43375(class_3898.java:591) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_18859(class_3215.java:602) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_16075(class_3215.java:611) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215.method_19492(class_3215.java:277) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:877) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:865) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_5383(class_1255.java:123) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:833) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:719) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:292) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [-43, 55] does not match requested [-42, 33]
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:20) ~[server-intermediary.jar:?]
+	... 17 more
+[04:19:12] [IO-Worker-97/INFO]: Saved details to debug/chunk-world-2025-05-10_04.19.12-server.txt
+[04:19:20] [Server thread/ERROR]: Chunk file at [-76, 48] is in the wrong location; relocating. (Expected [-76, 48], got [-80, 56])
+[04:19:20] [Server thread/ERROR]: Failed to load chunk -76,48
+net.minecraft.class_148: Chunk found in invalid location
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:23) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9820.method_60998(class_9820.java:30) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2852.method_12395(class_2852.java:249) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3898.method_43375(class_3898.java:591) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_18859(class_3215.java:602) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_16075(class_3215.java:611) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215.method_19492(class_3215.java:277) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:877) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:865) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_18857(class_1255.java:147) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:829) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:836) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:719) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:292) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [-80, 56] does not match requested [-76, 48]
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:20) ~[server-intermediary.jar:?]
+	... 18 more
+[04:19:20] [Server thread/WARN]: Found invalid structure reference [ minecraft:mineshaft @ [-77, 61] ] for chunk [-76, 48].
+[04:19:20] [IO-Worker-92/INFO]: Saved details to debug/chunk-world-2025-05-10_04.19.20-server.txt
+[04:19:21] [Server thread/ERROR]: Chunk file at [-60, 51] is in the wrong location; relocating. (Expected [-60, 51], got [-50, 33])
+[04:19:21] [Server thread/ERROR]: Failed to load chunk -60,51
+net.minecraft.class_148: Chunk found in invalid location
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:23) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9820.method_60998(class_9820.java:30) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2852.method_12395(class_2852.java:249) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3898.method_43375(class_3898.java:591) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_18859(class_3215.java:602) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_16075(class_3215.java:611) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215.method_19492(class_3215.java:277) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:877) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:865) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_18857(class_1255.java:147) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:829) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:836) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:719) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:292) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [-50, 33] does not match requested [-60, 51]
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:20) ~[server-intermediary.jar:?]
+	... 18 more
+[04:19:21] [Server thread/WARN]: Found invalid structure reference [ minecraft:mineshaft @ [-46, 37] ] for chunk [-60, 51].
+[04:19:21] [IO-Worker-97/INFO]: Saved details to debug/chunk-world-2025-05-10_04.19.21-server.txt
+[04:19:24] [Server thread/ERROR]: Chunk file at [-60, 53] is in the wrong location; relocating. (Expected [-60, 53], got [-36, 40])
+[04:19:24] [Server thread/ERROR]: Failed to load chunk -60,53
+net.minecraft.class_148: Chunk found in invalid location
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:23) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9820.method_60998(class_9820.java:30) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2852.method_12395(class_2852.java:249) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3898.method_43375(class_3898.java:591) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_18859(class_3215.java:602) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_16075(class_3215.java:611) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215.method_19492(class_3215.java:277) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:877) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:865) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_18857(class_1255.java:147) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:829) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:836) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:719) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:292) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [-36, 40] does not match requested [-60, 53]
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:20) ~[server-intermediary.jar:?]
+	... 18 more
+[04:19:24] [IO-Worker-92/INFO]: Saved details to debug/chunk-world-2025-05-10_04.19.24-server.txt
+[04:19:25] [Server thread/ERROR]: Chunk file at [-60, 54] is in the wrong location; relocating. (Expected [-60, 54], got [-44, 56])
+[04:19:25] [Server thread/ERROR]: Failed to load chunk -60,54
+net.minecraft.class_148: Chunk found in invalid location
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:23) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9820.method_60998(class_9820.java:30) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2852.method_12395(class_2852.java:249) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3898.method_43375(class_3898.java:591) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_18859(class_3215.java:602) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_16075(class_3215.java:611) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215.method_19492(class_3215.java:277) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:877) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:865) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_18857(class_1255.java:147) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:829) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:836) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:719) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:292) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [-44, 56] does not match requested [-60, 54]
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:20) ~[server-intermediary.jar:?]
+	... 18 more
+[04:19:25] [IO-Worker-92/INFO]: Saved details to debug/chunk-world-2025-05-10_04.19.25-server.txt
+[04:19:26] [IO-Worker-98/ERROR]: Chunk [-60, 55] stream is truncated: expected 5651 but read 4091
+[04:19:27] [IO-Worker-94/ERROR]: Chunk [-60, 56] stream is truncated: expected 7896 but read 4091
+[04:19:28] [Server thread/ERROR]: Chunk file at [-60, 57] is in the wrong location; relocating. (Expected [-60, 57], got [-52, 40])
+[04:19:28] [Server thread/ERROR]: Failed to load chunk -60,57
+net.minecraft.class_148: Chunk found in invalid location
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:23) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9820.method_60998(class_9820.java:30) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2852.method_12395(class_2852.java:249) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3898.method_43375(class_3898.java:591) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_18859(class_3215.java:602) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_16075(class_3215.java:611) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215.method_19492(class_3215.java:277) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:877) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:865) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_18857(class_1255.java:147) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:829) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:836) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:719) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:292) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [-52, 40] does not match requested [-60, 57]
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:20) ~[server-intermediary.jar:?]
+	... 18 more
+[04:19:28] [IO-Worker-93/INFO]: Saved details to debug/chunk-world-2025-05-10_04.19.28-server.txt
+[04:19:42] [Server thread/ERROR]: Chunk file at [-60, 47] is in the wrong location; relocating. (Expected [-60, 47], got [-36, 36])
+[04:19:42] [Server thread/ERROR]: Failed to load chunk -60,47
+net.minecraft.class_148: Chunk found in invalid location
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:23) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9820.method_60998(class_9820.java:30) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2852.method_12395(class_2852.java:249) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3898.method_43375(class_3898.java:591) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_18859(class_3215.java:602) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_16075(class_3215.java:611) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215.method_19492(class_3215.java:277) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:877) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:865) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_18857(class_1255.java:147) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:829) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:836) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:719) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:292) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [-36, 36] does not match requested [-60, 47]
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:20) ~[server-intermediary.jar:?]
+	... 18 more
+[04:19:42] [IO-Worker-96/INFO]: Saved details to debug/chunk-world-2025-05-10_04.19.42-server.txt
+[04:19:42] [Server thread/ERROR]: Chunk file at [-60, 54] is in the wrong location; relocating. (Expected [-60, 54], got [-44, 56])
+[04:19:42] [Server thread/ERROR]: Failed to load chunk -60,54
+net.minecraft.class_148: Chunk found in invalid location
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:23) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9820.method_60998(class_9820.java:30) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2852.method_12395(class_2852.java:249) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3898.method_43375(class_3898.java:591) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_18859(class_3215.java:602) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_16075(class_3215.java:611) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215.method_19492(class_3215.java:277) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:877) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:865) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_5383(class_1255.java:123) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:833) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:719) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:292) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [-44, 56] does not match requested [-60, 54]
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:20) ~[server-intermediary.jar:?]
+	... 17 more
+[04:19:42] [Server thread/ERROR]: Chunk file at [-60, 51] is in the wrong location; relocating. (Expected [-60, 51], got [-50, 33])
+[04:19:42] [IO-Worker-93/INFO]: Saved details to debug/chunk-world-2025-05-10_04.19.42-server.txt
+[04:19:42] [Server thread/ERROR]: Failed to load chunk -60,51
+net.minecraft.class_148: Chunk found in invalid location
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:23) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9820.method_60998(class_9820.java:30) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2852.method_12395(class_2852.java:249) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3898.method_43375(class_3898.java:591) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_18859(class_3215.java:602) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_16075(class_3215.java:611) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215.method_19492(class_3215.java:277) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:877) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:865) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_5383(class_1255.java:123) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:833) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:719) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:292) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [-50, 33] does not match requested [-60, 51]
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:20) ~[server-intermediary.jar:?]
+	... 17 more
+[04:19:42] [Server thread/WARN]: Found invalid structure reference [ minecraft:mineshaft @ [-46, 37] ] for chunk [-60, 51].
+[04:19:42] [IO-Worker-93/INFO]: Saved details to debug/chunk-world-2025-05-10_04.19.42-server.txt
+[04:19:42] [Server thread/ERROR]: Chunk file at [-60, 53] is in the wrong location; relocating. (Expected [-60, 53], got [-36, 40])
+[04:19:42] [Server thread/ERROR]: Failed to load chunk -60,53
+net.minecraft.class_148: Chunk found in invalid location
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:23) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9820.method_60998(class_9820.java:30) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2852.method_12395(class_2852.java:249) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3898.method_43375(class_3898.java:591) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_18859(class_3215.java:602) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_16075(class_3215.java:611) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215.method_19492(class_3215.java:277) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:877) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:865) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_5383(class_1255.java:123) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:833) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:719) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:292) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [-36, 40] does not match requested [-60, 53]
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:20) ~[server-intermediary.jar:?]
+	... 17 more
+[04:19:42] [Server thread/ERROR]: Chunk file at [-60, 57] is in the wrong location; relocating. (Expected [-60, 57], got [-52, 40])
+[04:19:42] [IO-Worker-93/INFO]: Saved details to debug/chunk-world-2025-05-10_04.19.42-server.txt
+[04:19:42] [Server thread/ERROR]: Failed to load chunk -60,57
+net.minecraft.class_148: Chunk found in invalid location
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:23) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9820.method_60998(class_9820.java:30) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2852.method_12395(class_2852.java:249) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3898.method_43375(class_3898.java:591) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_18859(class_3215.java:602) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_16075(class_3215.java:611) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215.method_19492(class_3215.java:277) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:877) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:865) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_5383(class_1255.java:123) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:833) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:719) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:292) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [-52, 40] does not match requested [-60, 57]
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:20) ~[server-intermediary.jar:?]
+	... 17 more
+[04:19:42] [IO-Worker-93/INFO]: Saved details to debug/chunk-world-2025-05-10_04.19.42-server.txt
+[04:20:16] [Server thread/ERROR]: Chunk file at [-60, 47] is in the wrong location; relocating. (Expected [-60, 47], got [-36, 36])
+[04:20:16] [Server thread/ERROR]: Failed to load chunk -60,47
+net.minecraft.class_148: Chunk found in invalid location
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:23) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9820.method_60998(class_9820.java:30) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2852.method_12395(class_2852.java:249) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3898.method_43375(class_3898.java:591) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_18859(class_3215.java:602) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_16075(class_3215.java:611) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215.method_19492(class_3215.java:277) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:877) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:865) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_18857(class_1255.java:147) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_18857(MinecraftServer.java:829) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:836) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:719) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:292) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [-36, 36] does not match requested [-60, 47]
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:20) ~[server-intermediary.jar:?]
+	... 18 more
+[04:20:16] [IO-Worker-94/INFO]: Saved details to debug/chunk-world-2025-05-10_04.20.16-server.txt
+[04:20:16] [Server thread/ERROR]: Chunk file at [-60, 51] is in the wrong location; relocating. (Expected [-60, 51], got [-50, 33])
+[04:20:16] [Server thread/ERROR]: Failed to load chunk -60,51
+net.minecraft.class_148: Chunk found in invalid location
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:23) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9820.method_60998(class_9820.java:30) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2852.method_12395(class_2852.java:249) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3898.method_43375(class_3898.java:591) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_18859(class_3215.java:602) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_16075(class_3215.java:611) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215.method_19492(class_3215.java:277) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:877) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:865) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_5383(class_1255.java:123) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:833) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:719) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:292) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [-50, 33] does not match requested [-60, 51]
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:20) ~[server-intermediary.jar:?]
+	... 17 more
+[04:20:16] [Server thread/WARN]: Found invalid structure reference [ minecraft:mineshaft @ [-46, 37] ] for chunk [-60, 51].
+[04:20:16] [Server thread/ERROR]: Chunk file at [-60, 53] is in the wrong location; relocating. (Expected [-60, 53], got [-36, 40])
+[04:20:16] [IO-Worker-94/INFO]: Saved details to debug/chunk-world-2025-05-10_04.20.16-server.txt
+[04:20:16] [Server thread/ERROR]: Failed to load chunk -60,53
+net.minecraft.class_148: Chunk found in invalid location
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:23) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9820.method_60998(class_9820.java:30) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2852.method_12395(class_2852.java:249) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3898.method_43375(class_3898.java:591) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_18859(class_3215.java:602) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_16075(class_3215.java:611) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215.method_19492(class_3215.java:277) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:877) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:865) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_5383(class_1255.java:123) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:833) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:719) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:292) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [-36, 40] does not match requested [-60, 53]
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:20) ~[server-intermediary.jar:?]
+	... 17 more
+[04:20:16] [IO-Worker-94/INFO]: Saved details to debug/chunk-world-2025-05-10_04.20.16-server.txt
+[04:20:16] [Server thread/ERROR]: Chunk file at [-60, 54] is in the wrong location; relocating. (Expected [-60, 54], got [-44, 56])
+[04:20:16] [Server thread/ERROR]: Failed to load chunk -60,54
+net.minecraft.class_148: Chunk found in invalid location
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:23) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9820.method_60998(class_9820.java:30) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2852.method_12395(class_2852.java:249) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3898.method_43375(class_3898.java:591) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_18859(class_3215.java:602) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_16075(class_3215.java:611) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215.method_19492(class_3215.java:277) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:877) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:865) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_5383(class_1255.java:123) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:833) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:719) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:292) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [-44, 56] does not match requested [-60, 54]
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:20) ~[server-intermediary.jar:?]
+	... 17 more
+[04:20:16] [Server thread/ERROR]: Chunk file at [-60, 57] is in the wrong location; relocating. (Expected [-60, 57], got [-52, 40])
+[04:20:16] [IO-Worker-94/INFO]: Saved details to debug/chunk-world-2025-05-10_04.20.16-server.txt
+[04:20:16] [Server thread/ERROR]: Failed to load chunk -60,57
+net.minecraft.class_148: Chunk found in invalid location
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:23) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9820.method_60998(class_9820.java:30) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2852.method_12395(class_2852.java:249) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3898.method_43375(class_3898.java:591) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_18859(class_3215.java:602) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_16075(class_3215.java:611) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215.method_19492(class_3215.java:277) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:877) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:865) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_5383(class_1255.java:123) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:833) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:719) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:292) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [-52, 40] does not match requested [-60, 57]
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:20) ~[server-intermediary.jar:?]
+	... 17 more
+[04:20:16] [IO-Worker-94/INFO]: Saved details to debug/chunk-world-2025-05-10_04.20.16-server.txt
+[04:20:31] [Server thread/INFO]: Locating element minecraft:ancient_city took 1 ms
+[04:20:35] [Server thread/INFO]: [Observer: Teleported Observer to -1327.500000, 168.433249, 448.500000]
+[04:20:37] [Server thread/ERROR]: Chunk file at [-95, 10] is in the wrong location; relocating. (Expected [-95, 10], got [-65, 11])
+[04:20:37] [Server thread/ERROR]: Failed to load chunk -95,10
+net.minecraft.class_148: Chunk found in invalid location
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:23) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9820.method_60998(class_9820.java:30) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2852.method_12395(class_2852.java:249) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3898.method_43375(class_3898.java:591) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_18859(class_3215.java:602) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_16075(class_3215.java:611) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215.method_19492(class_3215.java:277) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:877) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:865) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_5383(class_1255.java:123) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:833) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:719) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:292) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [-65, 11] does not match requested [-95, 10]
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:20) ~[server-intermediary.jar:?]
+	... 17 more
+[04:20:37] [Server thread/WARN]: Found invalid structure reference [ minecraft:mineshaft @ [-61, 6] ] for chunk [-95, 10].
+[04:20:37] [IO-Worker-94/INFO]: Saved details to debug/chunk-world-2025-05-10_04.20.37-server.txt
+[04:20:37] [Server thread/ERROR]: Chunk file at [-92, 10] is in the wrong location; relocating. (Expected [-92, 10], got [-72, 14])
+[04:20:37] [Server thread/ERROR]: Failed to load chunk -92,10
+net.minecraft.class_148: Chunk found in invalid location
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:23) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9820.method_60998(class_9820.java:30) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2852.method_12395(class_2852.java:249) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3898.method_43375(class_3898.java:591) ~[server-intermediary.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at knot/net.minecraft.class_1255.method_18859(class_1255.java:164) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_18859(class_3215.java:602) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_16075(class_1255.java:138) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215$class_4212.method_16075(class_3215.java:611) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3215.method_19492(class_3215.java:277) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServer.java:877) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServer.java:865) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_5383(class_1255.java:123) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServer.java:833) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:719) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:292) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.IllegalStateException: Retrieved chunk position [-72, 14] does not match requested [-92, 10]
+	at knot/net.minecraft.class_9820.method_60997(class_9820.java:20) ~[server-intermediary.jar:?]
+	... 17 more
+[04:20:37] [IO-Worker-89/INFO]: Saved details to debug/chunk-world-2025-05-10_04.20.37-server.txt
+[04:20:48] [Server thread/INFO]: Observer teleported to 2064.0 127.0 -5156.0 minecraft:overworld
+[04:20:53] [Server thread/INFO]: Locating element minecraft:ancient_city took 51 ms
+[04:20:59] [Server thread/INFO]: [Observer: Teleported Observer to 1536.500000, 127.000000, -4591.500000]
+[04:21:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5983ms or 119 ticks behind
+[04:21:09] [Server thread/INFO]: [Not Secure] <SrLipord> a
+[04:21:09] [Server thread/INFO]: [Not Secure] <SrLipord> a
+[04:21:10] [Server thread/INFO]: [Not Secure] <SrLipord> aaaa
+[04:22:04] [Server thread/INFO]: [Observer: Set own game mode to Creative Mode]
+[04:22:42] [Server thread/INFO]: Observer has made the advancement [Stone Age]
+[04:24:49] [Server thread/INFO]: Observer teleported to -11270.5 -56.0 -2855.5 minecraft:overworld
+[04:25:07] [Server thread/INFO]: [Observer: Set own game mode to Spectator Mode]
+[04:25:38] [Server thread/INFO]: Observer teleported to -10780.0 136.0 -2554.0 minecraft:overworld
+[04:26:01] [Server thread/INFO]: Observer teleported to -11576.0 81.0 -2353.0 minecraft:overworld
+[04:26:03] [Server thread/INFO]: [Observer: Set own game mode to Creative Mode]
+[04:26:41] [Server thread/INFO]: [Observer: Set own game mode to Spectator Mode]
+[04:26:47] [Server thread/INFO]: Observer teleported to -10761.0 63.0 -2676.0 minecraft:overworld
+[04:27:11] [Server thread/INFO]: [Observer: Set own game mode to Creative Mode]
+[04:27:27] [Server thread/INFO]: [Observer: Set own game mode to Spectator Mode]
+[04:27:48] [Server thread/INFO]: [Observer: Set own game mode to Creative Mode]
