@@ -81,9 +81,11 @@
       "minecraft:beach": "2025-04-16 05:13:42 +0000",
       "minecraft:dark_forest": "2025-04-17 21:17:18 +0000",
       "minecraft:stony_peaks": "2025-04-17 22:35:06 +0000",
+      "minecraft:mangrove_swamp": "2025-05-10 07:09:10 +0000",
       "minecraft:sparse_jungle": "2025-04-17 22:49:50 +0000",
       "minecraft:river": "2025-04-16 23:17:44 +0000",
       "minecraft:lukewarm_ocean": "2025-04-27 20:58:27 +0000",
+      "minecraft:snowy_plains": "2025-05-10 06:52:53 +0000",
       "minecraft:dripstone_caves": "2025-04-17 02:56:54 +0000",
       "minecraft:snowy_taiga": "2025-04-22 02:20:41 +0000",
       "minecraft:frozen_peaks": "2025-04-28 04:48:15 +0000",
@@ -91,6 +93,7 @@
       "minecraft:deep_dark": "2025-04-16 06:47:28 +0000",
       "minecraft:swamp": "2025-04-19 06:28:56 +0000",
       "minecraft:grove": "2025-04-28 04:46:50 +0000",
+      "minecraft:meadow": "2025-05-10 07:02:02 +0000",
       "minecraft:windswept_gravelly_hills": "2025-04-16 23:18:42 +0000",
       "minecraft:savanna": "2025-04-17 22:25:59 +0000",
       "minecraft:plains": "2025-04-16 23:18:46 +0000",
@@ -5163,81 +5166,15 @@
     },
     "done": false
   },
-  "incendium:technical/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-05-10 06:30:03 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-05-10 06:30:03 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/feed_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2025-05-10 06:30:03 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_player_hurt": {
-    "criteria": {
-      "log_spam_fixer": "2025-05-10 06:30:03 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2025-05-10 06:30:03 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2025-05-10 06:30:03 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/give_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2025-05-10 06:30:03 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_kill": {
-    "criteria": {
-      "log_spam_fixer": "2025-05-10 06:30:03 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/multiplex_crossbow": {
-    "criteria": {
-      "log_spam_fixer": "2025-05-10 06:30:03 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_inventory_change": {
-    "criteria": {
-      "log_spam_fixer": "2025-05-10 06:30:03 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/holy_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-05-10 06:30:03 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_block": {
-    "criteria": {
-      "log_spam_fixer": "2025-05-10 06:30:03 +0000"
-    },
-    "done": false
-  },
   "mcwpaths:recipes/warped": {
     "criteria": {
       "has_wood": "2025-05-10 05:20:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/map": {
+    "criteria": {
+      "has_compass": "2025-05-10 06:51:23 +0000"
     },
     "done": true
   },

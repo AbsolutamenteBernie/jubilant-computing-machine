@@ -709,3 +709,7 @@ java.lang.Throwable
 [04:58:14] [Server thread/DEBUG] [REI] Player Vector has outdated displays version 0 [latest version: E0F2EA7400000001], sending reset packet request.
 [05:32:46] [Server thread/DEBUG] [REI] Player Vector has outdated displays version 0 [latest version: E0F2EA7400000001]
 [05:32:46] [Server thread/DEBUG] [REI] Player Vector has outdated displays version 0 [latest version: E0F2EA7400000001], sending reset packet request.
+[06:51:16] [Server thread/DEBUG] [REI] Player Observer has outdated displays version 0 [latest version: E0F2EA7400000001]
+[06:51:16] [Server thread/DEBUG] [REI] Player Observer has outdated displays version 0 [latest version: E0F2EA7400000001], sending reset packet request.
+[07:09:06] [Server thread/DEBUG] [REI] Player Vector has outdated displays version 0 [latest version: E0F2EA7400000001]
+[07:09:06] [Server thread/DEBUG] [REI] Player Vector has outdated displays version 0 [latest version: E0F2EA7400000001], sending reset packet request.
