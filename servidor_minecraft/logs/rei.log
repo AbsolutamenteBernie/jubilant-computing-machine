@@ -707,3 +707,5 @@ java.lang.Throwable
 [04:38:57] [Server thread/DEBUG] [REI] Player Gathorin has outdated displays version 0 [latest version: E0F2EA7400000001], sending reset packet request.
 [04:58:14] [Server thread/DEBUG] [REI] Player Vector has outdated displays version 0 [latest version: E0F2EA7400000001]
 [04:58:14] [Server thread/DEBUG] [REI] Player Vector has outdated displays version 0 [latest version: E0F2EA7400000001], sending reset packet request.
+[05:32:46] [Server thread/DEBUG] [REI] Player Vector has outdated displays version 0 [latest version: E0F2EA7400000001]
+[05:32:46] [Server thread/DEBUG] [REI] Player Vector has outdated displays version 0 [latest version: E0F2EA7400000001], sending reset packet request.

@@ -20076,3 +20076,32 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.class_8710$class_91
 [05:27:58] [Server thread/INFO]: Gathorin teleported to 61455.0 127.0 1074686.0 minecraft:overworld
 [05:29:37] [Server thread/INFO]: Gathorin teleported to 61531.0 103.0 1074559.0 minecraft:overworld
 [05:29:58] [Server thread/INFO]: Gathorin teleported to 61318.0 98.0 1074761.0 minecraft:overworld
+[05:30:39] [Server thread/INFO]: Gathorin teleported to 61300.0 98.0 1074767.0 minecraft:overworld
+[05:31:00] [Server thread/INFO]: Gathorin teleported to 61258.0 89.0 1074888.0 minecraft:overworld
+[05:31:10] [Server thread/INFO]: Gathorin teleported to 61728.0 150.0 1074562.0 minecraft:overworld
+[05:32:21] [Server thread/INFO]: Gathorin teleported to 63306.0 211.0 1072126.0 minecraft:overworld
+[05:32:44] [Server thread/INFO]: Vector lost connection: You logged in from another location
+[05:32:44] [Server thread/INFO]: Vector left the game
+[05:32:46] [Server thread/INFO]: Vector[/127.225.218.44:40495] logged in with entity id 78880 at (-8695.512499988079, 128.99360031128003, -2314.5073496880336)
+[05:32:46] [Server thread/INFO]: Vector joined the game
+[05:32:46] [Server thread/INFO]: [do_a_barrel_roll] Client of Vector accepted server config.
+[05:33:23] [Server thread/INFO]: Vector has made the advancement [Local Brewery]
+[05:34:14] [Server thread/INFO]: Gathorin teleported to 57681.0 108.0 1056852.0 minecraft:overworld
+[05:34:32] [Server thread/INFO]: Gathorin teleported to 57415.0 121.0 1056429.0 minecraft:overworld
+[05:35:12] [Server thread/INFO]: Gathorin was slain by Vindicator
+[05:35:13] [Server thread/INFO]: [do_a_barrel_roll] Client of Gathorin accepted server config.
+[05:35:24] [Server thread/INFO]: Gathorin teleported to 57414.5 83.0 1056429.5 minecraft:overworld
+[05:35:28] [Server thread/INFO]: Gathorin was slain by Vindicator
+[05:35:29] [Server thread/INFO]: [do_a_barrel_roll] Client of Gathorin accepted server config.
+[05:35:35] [Server thread/INFO]: Gathorin teleported to 57413.5 83.0 1056429.5 minecraft:overworld
+[05:36:05] [Server thread/INFO]: Named entity class_5762['Crystal'/80913, l='ServerLevel[world]', x=57408.39, y=83.27, z=1056425.49] died: Crystal was slain by Gathorin using [EL CUÑO dE la fad65u7655!e1k9PEPAGPWM;ytr223r23r23]
+[05:36:55] [Server thread/INFO]: Gathorin teleported to 57308.0 75.0 1056347.0 minecraft:overworld
+[05:37:01] [Server thread/INFO]: Gathorin teleported to 57250.0 89.0 1056344.0 minecraft:overworld
+[05:37:53] [Server thread/INFO]: Villager class_1646['Unemployed'/82726, l='ServerLevel[world]', x=-8538.93, y=76.50, z=-2595.57] died, message: 'Unemployed suffocated in a wall'
+[05:38:03] [Server thread/INFO]: Villager class_1646['Unemployed'/83613, l='ServerLevel[world]', x=-8601.63, y=77.00, z=-2618.28] died, message: 'Unemployed suffocated in a wall'
+[05:38:07] [Server thread/INFO]: Gathorin teleported to 56897.0 117.0 1056324.0 minecraft:overworld
+[05:38:07] [Server thread/WARN]: Trying to set block entity net.minecraft.class_8174@8ab582a at position class_2338{x=-8462, y=35, z=-2796}, but state Block{minecraft:chest}[facing=north,type=single,waterlogged=false] does not allow it
+[05:38:14] [Server thread/INFO]: Gathorin teleported to 56857.0 122.0 1056367.0 minecraft:overworld
+[05:38:24] [Server thread/INFO]: Gathorin teleported to 56855.0 64.0 1056425.0 minecraft:overworld
+[05:39:39] [Server thread/INFO]: Villager class_1646['Unemployed'/83417, l='ServerLevel[world]', x=-8496.33, y=65.00, z=-2621.70] died, message: 'Unemployed suffocated in a wall'
+[05:40:25] [Server thread/INFO]: [Not Secure] <SrLipord> zzzzz
