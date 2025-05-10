@@ -1284,3 +1284,61 @@ Caused by: java.lang.IllegalStateException: Retrieved chunk position [-72, 14] d
 [22:08:47] [Server thread/INFO]: [Not Secure] <SrLipord> z
 [22:08:47] [Server thread/INFO]: [Not Secure] <SrLipord> z
 [22:08:49] [Server thread/INFO]: [xXTHEONEXx: Set own game mode to Survival Mode]
+[22:13:44] [Server thread/INFO]: xXTHEONEXx teleported to -1073.5 700.0 -13134.5 minecraft:overworld
+[22:13:53] [Server thread/INFO]: xXTHEONEXx was doomed to fall
+[22:13:54] [Server thread/INFO]: [do_a_barrel_roll] Client of xXTHEONEXx accepted server config.
+[22:14:02] [Server thread/INFO]: xXTHEONEXx teleported to -1071.0 191.0 -13132.0 minecraft:overworld
+[22:14:04] [Server thread/INFO]: SrLipord teleported to -1064.0 177.0 -13204.0 minecraft:overworld
+[22:14:08] [Server thread/INFO]: SrLipord teleported to -1088.0 191.0 -13123.0 minecraft:overworld
+[22:14:08] [Server thread/INFO]: SrLipord teleported to -1073.0 191.0 -13119.0 minecraft:overworld
+[22:14:09] [Server thread/INFO]: SrLipord teleported to -1075.0 191.0 -13134.0 minecraft:overworld
+[22:14:10] [Server thread/INFO]: SrLipord teleported to -1097.0 191.0 -13129.0 minecraft:overworld
+[22:14:12] [Server thread/INFO]: SrLipord teleported to -1077.0 191.0 -13120.0 minecraft:overworld
+[22:14:14] [Server thread/INFO]: SrLipord teleported to -1068.0 191.0 -13142.0 minecraft:overworld
+[22:14:15] [Server thread/INFO]: SrLipord teleported to -1096.0 191.0 -13130.0 minecraft:overworld
+[22:14:30] [Server thread/INFO]: [SrLipord: Set own game mode to Spectator Mode]
+[22:14:42] [Server thread/INFO]: xXTHEONEXx teleported to -1085.0 191.0 -13058.0 minecraft:overworld
+[22:14:43] [Server thread/INFO]: xXTHEONEXx teleported to -1132.0 191.0 -13063.0 minecraft:overworld
+[22:14:44] [Server thread/INFO]: xXTHEONEXx teleported to -1038.0 191.0 -13071.0 minecraft:overworld
+[22:14:45] [Server thread/INFO]: xXTHEONEXx teleported to -1059.0 191.0 -13063.0 minecraft:overworld
+[22:14:46] [Server thread/INFO]: xXTHEONEXx teleported to -1130.0 191.0 -13082.0 minecraft:overworld
+[22:14:46] [Server thread/INFO]: xXTHEONEXx teleported to -1089.0 191.0 -13075.0 minecraft:overworld
+[22:14:47] [Server thread/INFO]: xXTHEONEXx teleported to -1076.0 191.0 -13073.0 minecraft:overworld
+[22:14:48] [Server thread/INFO]: xXTHEONEXx teleported to -1039.0 191.0 -13098.0 minecraft:overworld
+[22:14:49] [Server thread/INFO]: xXTHEONEXx teleported to -1054.0 191.0 -13145.0 minecraft:overworld
+[22:14:50] [Server thread/INFO]: xXTHEONEXx teleported to -1077.0 191.0 -13163.0 minecraft:overworld
+[22:14:51] [Server thread/INFO]: xXTHEONEXx teleported to -1089.0 191.0 -13143.0 minecraft:overworld
+[22:14:52] [Server thread/INFO]: xXTHEONEXx teleported to -1125.0 191.0 -13093.0 minecraft:overworld
+[22:14:53] [Server thread/INFO]: xXTHEONEXx teleported to -1073.0 191.0 -13079.0 minecraft:overworld
+[22:14:54] [Server thread/INFO]: xXTHEONEXx teleported to -1047.0 191.0 -13067.0 minecraft:overworld
+[22:14:55] [Server thread/INFO]: xXTHEONEXx teleported to -1028.0 191.0 -13106.0 minecraft:overworld
+[22:14:56] [Server thread/INFO]: xXTHEONEXx teleported to -1117.0 191.0 -13113.0 minecraft:overworld
+[22:14:58] [Server thread/INFO]: xXTHEONEXx teleported to -1116.0 191.0 -13100.0 minecraft:overworld
+[22:14:58] [Server thread/INFO]: [SrLipord: Set own game mode to Survival Mode]
+[22:14:58] [Server thread/INFO]: xXTHEONEXx teleported to -1131.0 191.0 -13064.0 minecraft:overworld
+[22:14:59] [Server thread/INFO]: xXTHEONEXx teleported to -1072.0 191.0 -13064.0 minecraft:overworld
+[22:15:01] [Server thread/INFO]: xXTHEONEXx teleported to -1146.0 191.0 -13121.0 minecraft:overworld
+[22:15:06] [Server thread/INFO]: xXTHEONEXx teleported to -1154.0 164.0 -13122.0 minecraft:overworld
+[22:15:22] [Server thread/INFO]: xXTHEONEXx teleported to -1086.0 191.0 -13175.0 minecraft:overworld
+[22:15:26] [Server thread/INFO]: xXTHEONEXx teleported to -1129.0 191.0 -13111.0 minecraft:overworld
+[22:15:34] [Server thread/INFO]: xXTHEONEXx teleported to -1105.0 191.0 -13147.0 minecraft:overworld
+[22:15:39] [Server thread/INFO]: xXTHEONEXx teleported to -1086.0 191.0 -13128.0 minecraft:overworld
+[22:15:47] [Server thread/INFO]: xXTHEONEXx teleported to -1077.0 191.0 -13126.0 minecraft:overworld
+[22:15:53] [Server thread/INFO]: xXTHEONEXx teleported to -1103.0 191.0 -13116.0 minecraft:overworld
+[22:16:27] [Server thread/INFO]: xXTHEONEXx lost connection: Disconnected
+[22:16:27] [Server thread/INFO]: xXTHEONEXx left the game
+[22:16:29] [Server thread/INFO]: SrLipord lost connection: Disconnected
+[22:16:29] [Server thread/INFO]: SrLipord left the game
+[22:16:36] [Server thread/INFO]: Stopping the server
+[22:16:36] [Server thread/INFO]: Stopping server
+[22:16:36] [Server thread/INFO]: Saving players
+[22:16:36] [Server thread/INFO]: Saving worlds
+[22:16:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:16:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[22:16:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[22:16:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:16:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:16:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:16:36] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22:16:36] [Server thread/INFO]: Dispatching unloading event for config easyanvils-server.toml
+[22:16:36] [Server thread/INFO]: Dispatching unloading event for config easymagic-server.toml
