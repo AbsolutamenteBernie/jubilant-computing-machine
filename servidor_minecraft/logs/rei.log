@@ -693,3 +693,13 @@ java.lang.Throwable
 [03:16:47] [Server thread/DEBUG] [REI] Updating players with new displays version E0F2EA7400000001 [from E0F2EA7400000000]
 [03:16:59] [Server thread/DEBUG] [REI] Player Vector has outdated displays version 0 [latest version: E0F2EA7400000001]
 [03:16:59] [Server thread/DEBUG] [REI] Player Vector has outdated displays version 0 [latest version: E0F2EA7400000001], sending reset packet request.
+[04:05:10] [Server thread/DEBUG] [REI] Player Vector has outdated displays version 0 [latest version: E0F2EA7400000001]
+[04:05:10] [Server thread/DEBUG] [REI] Player Vector has outdated displays version 0 [latest version: E0F2EA7400000001], sending reset packet request.
+[04:07:10] [Server thread/DEBUG] [REI] Player SrLipord has outdated displays version 0 [latest version: E0F2EA7400000001]
+[04:07:10] [Server thread/DEBUG] [REI] Player SrLipord has outdated displays version 0 [latest version: E0F2EA7400000001], sending reset packet request.
+[04:13:01] [Server thread/DEBUG] [REI] Player SrLipord has outdated displays version 0 [latest version: E0F2EA7400000001]
+[04:13:01] [Server thread/DEBUG] [REI] Player SrLipord has outdated displays version 0 [latest version: E0F2EA7400000001], sending reset packet request.
+[04:14:26] [Server thread/DEBUG] [REI] Player Observer has outdated displays version 0 [latest version: E0F2EA7400000001]
+[04:14:26] [Server thread/DEBUG] [REI] Player Observer has outdated displays version 0 [latest version: E0F2EA7400000001], sending reset packet request.
+[04:16:32] [Server thread/DEBUG] [REI] Player SrLipord has outdated displays version 0 [latest version: E0F2EA7400000001]
+[04:16:32] [Server thread/DEBUG] [REI] Player SrLipord has outdated displays version 0 [latest version: E0F2EA7400000001], sending reset packet request.

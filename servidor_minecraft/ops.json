@@ -18,6 +18,12 @@
     "bypassesPlayerLimit": false
   },
   {
+    "uuid": "11f4f517-853c-3cf3-a01b-95809db70061",
+    "name": "Observer",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "4549f12c-89fc-3393-9bd9-a16624796ef2",
     "name": "SrLipord",
     "level": 4,
