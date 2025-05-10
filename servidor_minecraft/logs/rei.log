@@ -695,3 +695,5 @@ java.lang.Throwable
 [00:23:26] [Server thread/DEBUG] [REI] Player SrLipord has outdated displays version 0 [latest version: 893732F700000001], sending reset packet request.
 [00:38:12] [Server thread/DEBUG] [REI] Player KHPL707 has outdated displays version 0 [latest version: 893732F700000001]
 [00:38:12] [Server thread/DEBUG] [REI] Player KHPL707 has outdated displays version 0 [latest version: 893732F700000001], sending reset packet request.
+[01:13:48] [Server thread/DEBUG] [REI] Player KHPL707 has outdated displays version 0 [latest version: 893732F700000001]
+[01:13:48] [Server thread/DEBUG] [REI] Player KHPL707 has outdated displays version 0 [latest version: 893732F700000001], sending reset packet request.
