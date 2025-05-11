@@ -103,9 +103,10 @@
   },
   "incendium:technical/using/shield": {
     "criteria": {
+      "requirement": "2025-05-11 05:02:33 +0000",
       "log_spam_fixer": "2025-04-13 22:16:45 +0000"
     },
-    "done": false
+    "done": true
   },
   "minecraft:adventure/root": {
     "criteria": {
@@ -4546,6 +4547,18 @@
   "minecraft:recipes/building_blocks/polished_andesite_stairs_from_andesite_stonecutting": {
     "criteria": {
       "has_andesite": "2025-05-10 07:22:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_ingot": {
+    "criteria": {
+      "has_netherite_scrap": "2025-05-11 04:56:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/creeper_banner_pattern": {
+    "criteria": {
+      "has_creeper_head": "2025-05-11 04:53:57 +0000"
     },
     "done": true
   },
