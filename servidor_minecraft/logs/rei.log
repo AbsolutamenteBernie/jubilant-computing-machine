@@ -693,3 +693,5 @@ java.lang.Throwable
 [03:42:33] [Server thread/DEBUG] [REI] Updating players with new displays version CF79C85800000001 [from CF79C85800000000]
 [03:43:20] [Server thread/DEBUG] [REI] Player Vector has outdated displays version 0 [latest version: CF79C85800000001]
 [03:43:20] [Server thread/DEBUG] [REI] Player Vector has outdated displays version 0 [latest version: CF79C85800000001], sending reset packet request.
+[04:48:14] [Server thread/DEBUG] [REI] Player SrLipord has outdated displays version 0 [latest version: CF79C85800000001]
+[04:48:14] [Server thread/DEBUG] [REI] Player SrLipord has outdated displays version 0 [latest version: CF79C85800000001], sending reset packet request.
