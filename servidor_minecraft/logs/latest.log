@@ -347,3 +347,9 @@
 [03:43:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2187ms or 43 ticks behind
 [03:43:22] [Server thread/INFO]: [do_a_barrel_roll] Client of Vector accepted server config.
 [03:43:49] [Server thread/INFO]: Vector teleported to -10746.5 138.0 -2538.5 minecraft:overworld
+[04:09:06] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[04:09:06] [Server thread/INFO]: <--[HERE]
+[04:09:06] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[04:09:06] [Server thread/INFO]: <--[HERE]
+[04:10:07] [Server thread/INFO]: Vector teleported to -10917.5 138.0 -1741.5 minecraft:overworld
+[04:11:59] [Server thread/INFO]: Vector teleported to -10760.5 134.0 -2566.5 minecraft:overworld
